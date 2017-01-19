@@ -1,3 +1,4 @@
 E:\Projet_drilling_exercise\VisualStudio_C#\DrillingExercise\Connexion\bin\Debug\Connexion.exe.config
 D:\Projet_drilling_exercise\VisualStudio_C#\DrillingExercise\Connexion\bin\Debug\Connexion.exe.config
 E:\Cours_DUT\Projet_drilling_exercise\VisualStudio_C#\DrillingExercise\Connexion\bin\Debug\Connexion.exe.config
+\\merlin\etudiants\deroot\Documents\drilling-exercises\DrillingExercise\Connexion\bin\Debug\Connexion.exe.config
