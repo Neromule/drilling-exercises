@@ -16,5 +16,10 @@ namespace ContactProfesseur
         {
             InitializeComponent();
         }
+
+        private void InterfaceContactProfesseur_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -44,6 +44,7 @@
             this.cmd_signin.TabIndex = 11;
             this.cmd_signin.Text = "Sign in";
             this.cmd_signin.UseVisualStyleBackColor = true;
+            this.cmd_signin.Click += new System.EventHandler(this.cmd_signin_Click);
             // 
             // cmd_signup
             // 
@@ -53,6 +54,7 @@
             this.cmd_signup.TabIndex = 10;
             this.cmd_signup.Text = "Sign up";
             this.cmd_signup.UseVisualStyleBackColor = true;
+            this.cmd_signup.Click += new System.EventHandler(this.cmd_signup_Click);
             // 
             // txt_pswd
             // 

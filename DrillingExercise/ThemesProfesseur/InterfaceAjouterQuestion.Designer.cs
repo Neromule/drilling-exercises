@@ -34,18 +34,19 @@
             this.opt_3 = new System.Windows.Forms.RadioButton();
             this.txt_question = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.lbl_reponse_3 = new System.Windows.Forms.Label();
+            this.lbl_reponse_2 = new System.Windows.Forms.Label();
+            this.lbl_reponse_1 = new System.Windows.Forms.Label();
             this.cmd_add_question = new System.Windows.Forms.Button();
             this.lbl_answer = new System.Windows.Forms.Label();
             this.opt_qcm = new System.Windows.Forms.RadioButton();
             this.opt_gapfield = new System.Windows.Forms.RadioButton();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.txt_poss_1 = new System.Windows.Forms.TextBox();
-            this.txt_poss_2 = new System.Windows.Forms.TextBox();
-            this.txt_poss_3 = new System.Windows.Forms.TextBox();
             this.txt_poss_4 = new System.Windows.Forms.TextBox();
-            this.lbl_reponse_1 = new System.Windows.Forms.Label();
-            this.lbl_reponse_2 = new System.Windows.Forms.Label();
-            this.lbl_reponse_3 = new System.Windows.Forms.Label();
+            this.txt_poss_3 = new System.Windows.Forms.TextBox();
+            this.txt_poss_2 = new System.Windows.Forms.TextBox();
+            this.txt_poss_1 = new System.Windows.Forms.TextBox();
+            this.cmd_return = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
@@ -118,9 +119,36 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(200, 100);
             this.tableLayoutPanel1.TabIndex = 5;
             // 
+            // lbl_reponse_3
+            // 
+            this.lbl_reponse_3.AutoSize = true;
+            this.lbl_reponse_3.Location = new System.Drawing.Point(103, 65);
+            this.lbl_reponse_3.Name = "lbl_reponse_3";
+            this.lbl_reponse_3.Size = new System.Drawing.Size(36, 13);
+            this.lbl_reponse_3.TabIndex = 6;
+            this.lbl_reponse_3.Text = "*rep3*";
+            // 
+            // lbl_reponse_2
+            // 
+            this.lbl_reponse_2.AutoSize = true;
+            this.lbl_reponse_2.Location = new System.Drawing.Point(103, 34);
+            this.lbl_reponse_2.Name = "lbl_reponse_2";
+            this.lbl_reponse_2.Size = new System.Drawing.Size(36, 13);
+            this.lbl_reponse_2.TabIndex = 5;
+            this.lbl_reponse_2.Text = "*rep2*";
+            // 
+            // lbl_reponse_1
+            // 
+            this.lbl_reponse_1.AutoSize = true;
+            this.lbl_reponse_1.Location = new System.Drawing.Point(103, 0);
+            this.lbl_reponse_1.Name = "lbl_reponse_1";
+            this.lbl_reponse_1.Size = new System.Drawing.Size(39, 13);
+            this.lbl_reponse_1.TabIndex = 4;
+            this.lbl_reponse_1.Text = "*rep 1*";
+            // 
             // cmd_add_question
             // 
-            this.cmd_add_question.Location = new System.Drawing.Point(155, 217);
+            this.cmd_add_question.Location = new System.Drawing.Point(155, 222);
             this.cmd_add_question.Name = "cmd_add_question";
             this.cmd_add_question.Size = new System.Drawing.Size(75, 23);
             this.cmd_add_question.TabIndex = 6;
@@ -176,19 +204,12 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(200, 100);
             this.tableLayoutPanel2.TabIndex = 9;
             // 
-            // txt_poss_1
+            // txt_poss_4
             // 
-            this.txt_poss_1.Location = new System.Drawing.Point(3, 3);
-            this.txt_poss_1.Name = "txt_poss_1";
-            this.txt_poss_1.Size = new System.Drawing.Size(94, 20);
-            this.txt_poss_1.TabIndex = 10;
-            // 
-            // txt_poss_2
-            // 
-            this.txt_poss_2.Location = new System.Drawing.Point(103, 3);
-            this.txt_poss_2.Name = "txt_poss_2";
-            this.txt_poss_2.Size = new System.Drawing.Size(94, 20);
-            this.txt_poss_2.TabIndex = 11;
+            this.txt_poss_4.Location = new System.Drawing.Point(103, 53);
+            this.txt_poss_4.Name = "txt_poss_4";
+            this.txt_poss_4.Size = new System.Drawing.Size(94, 20);
+            this.txt_poss_4.TabIndex = 13;
             // 
             // txt_poss_3
             // 
@@ -197,45 +218,35 @@
             this.txt_poss_3.Size = new System.Drawing.Size(94, 20);
             this.txt_poss_3.TabIndex = 12;
             // 
-            // txt_poss_4
+            // txt_poss_2
             // 
-            this.txt_poss_4.Location = new System.Drawing.Point(103, 53);
-            this.txt_poss_4.Name = "txt_poss_4";
-            this.txt_poss_4.Size = new System.Drawing.Size(94, 20);
-            this.txt_poss_4.TabIndex = 13;
+            this.txt_poss_2.Location = new System.Drawing.Point(103, 3);
+            this.txt_poss_2.Name = "txt_poss_2";
+            this.txt_poss_2.Size = new System.Drawing.Size(94, 20);
+            this.txt_poss_2.TabIndex = 11;
             // 
-            // lbl_reponse_1
+            // txt_poss_1
             // 
-            this.lbl_reponse_1.AutoSize = true;
-            this.lbl_reponse_1.Location = new System.Drawing.Point(103, 0);
-            this.lbl_reponse_1.Name = "lbl_reponse_1";
-            this.lbl_reponse_1.Size = new System.Drawing.Size(39, 13);
-            this.lbl_reponse_1.TabIndex = 4;
-            this.lbl_reponse_1.Text = "*rep 1*";
+            this.txt_poss_1.Location = new System.Drawing.Point(3, 3);
+            this.txt_poss_1.Name = "txt_poss_1";
+            this.txt_poss_1.Size = new System.Drawing.Size(94, 20);
+            this.txt_poss_1.TabIndex = 10;
             // 
-            // lbl_reponse_2
+            // cmd_return
             // 
-            this.lbl_reponse_2.AutoSize = true;
-            this.lbl_reponse_2.Location = new System.Drawing.Point(103, 34);
-            this.lbl_reponse_2.Name = "lbl_reponse_2";
-            this.lbl_reponse_2.Size = new System.Drawing.Size(36, 13);
-            this.lbl_reponse_2.TabIndex = 5;
-            this.lbl_reponse_2.Text = "*rep2*";
-            // 
-            // lbl_reponse_3
-            // 
-            this.lbl_reponse_3.AutoSize = true;
-            this.lbl_reponse_3.Location = new System.Drawing.Point(103, 65);
-            this.lbl_reponse_3.Name = "lbl_reponse_3";
-            this.lbl_reponse_3.Size = new System.Drawing.Size(36, 13);
-            this.lbl_reponse_3.TabIndex = 6;
-            this.lbl_reponse_3.Text = "*rep3*";
+            this.cmd_return.Location = new System.Drawing.Point(30, 217);
+            this.cmd_return.Name = "cmd_return";
+            this.cmd_return.Size = new System.Drawing.Size(33, 33);
+            this.cmd_return.TabIndex = 10;
+            this.cmd_return.Text = "←";
+            this.cmd_return.UseVisualStyleBackColor = true;
             // 
             // InterfaceAjouterQuestion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(497, 262);
+            this.Controls.Add(this.cmd_return);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.opt_gapfield);
             this.Controls.Add(this.opt_qcm);
@@ -275,5 +286,6 @@
         private System.Windows.Forms.Label lbl_reponse_3;
         private System.Windows.Forms.Label lbl_reponse_2;
         private System.Windows.Forms.Label lbl_reponse_1;
+        private System.Windows.Forms.Button cmd_return;
     }
 }

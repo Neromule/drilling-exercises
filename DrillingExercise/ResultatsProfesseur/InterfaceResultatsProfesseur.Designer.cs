@@ -39,6 +39,7 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cmd_return = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgd_results)).BeginInit();
             this.SuspendLayout();
             // 
@@ -95,7 +96,6 @@
             this.Column4,
             this.Column5,
             this.Column6});
-            this.dgd_results.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dgd_results.Location = new System.Drawing.Point(0, 59);
             this.dgd_results.Name = "dgd_results";
             this.dgd_results.Size = new System.Drawing.Size(688, 203);
@@ -131,11 +131,21 @@
             this.Column6.HeaderText = "Mark /xx";
             this.Column6.Name = "Column6";
             // 
+            // cmd_return
+            // 
+            this.cmd_return.Location = new System.Drawing.Point(32, 276);
+            this.cmd_return.Name = "cmd_return";
+            this.cmd_return.Size = new System.Drawing.Size(33, 33);
+            this.cmd_return.TabIndex = 6;
+            this.cmd_return.Text = "←";
+            this.cmd_return.UseVisualStyleBackColor = true;
+            // 
             // InterfaceResultatsProfesseur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(688, 262);
+            this.ClientSize = new System.Drawing.Size(688, 321);
+            this.Controls.Add(this.cmd_return);
             this.Controls.Add(this.dgd_results);
             this.Controls.Add(this.lbl_results);
             this.Controls.Add(this.opt_by_name);
@@ -143,6 +153,7 @@
             this.Controls.Add(this.opt_by_theme);
             this.Name = "InterfaceResultatsProfesseur";
             this.Text = "Results - Teacher";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.InterfaceResultatsProfesseur_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.dgd_results)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -162,6 +173,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.Button cmd_return;
     }
 }
 

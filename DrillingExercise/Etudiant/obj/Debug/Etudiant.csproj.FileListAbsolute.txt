@@ -1,0 +1,9 @@
+\\merlin\etudiants\caquantc\Documents\PROJET_TUTORE\drilling-exercises\DrillingExercise\Etudiant\bin\Debug\Etudiant.exe.config
+\\merlin\etudiants\caquantc\Documents\PROJET_TUTORE\drilling-exercises\DrillingExercise\Etudiant\bin\Debug\Etudiant.exe
+\\merlin\etudiants\caquantc\Documents\PROJET_TUTORE\drilling-exercises\DrillingExercise\Etudiant\bin\Debug\Etudiant.pdb
+\\merlin\etudiants\caquantc\Documents\PROJET_TUTORE\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Etudiant.csprojResolveAssemblyReference.cache
+\\merlin\etudiants\caquantc\Documents\PROJET_TUTORE\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Etudiant.InterfaceEtudiant.resources
+\\merlin\etudiants\caquantc\Documents\PROJET_TUTORE\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Etudiant.Properties.Resources.resources
+\\merlin\etudiants\caquantc\Documents\PROJET_TUTORE\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Etudiant.csproj.GenerateResource.Cache
+\\merlin\etudiants\caquantc\Documents\PROJET_TUTORE\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Etudiant.exe
+\\merlin\etudiants\caquantc\Documents\PROJET_TUTORE\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Etudiant.pdb

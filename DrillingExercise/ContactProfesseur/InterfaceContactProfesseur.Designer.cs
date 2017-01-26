@@ -28,90 +28,82 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.lbl_email = new System.Windows.Forms.Label();
-            this.lbl_nickname = new System.Windows.Forms.Label();
-            this.lbl_first_name = new System.Windows.Forms.Label();
-            this.lbl_last_name = new System.Windows.Forms.Label();
-            this.tableLayoutPanel1.SuspendLayout();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Column_LastName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column_FirstName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column_Nickname = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column_email = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cmd_return = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // tableLayoutPanel1
+            // dataGridView1
             // 
-            this.tableLayoutPanel1.ColumnCount = 4;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.4382F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.5618F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 86F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 55F));
-            this.tableLayoutPanel1.Controls.Add(this.lbl_email, 3, 0);
-            this.tableLayoutPanel1.Controls.Add(this.lbl_nickname, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.lbl_first_name, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.lbl_last_name, 0, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(51, 116);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 2;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(451, 100);
-            this.tableLayoutPanel1.TabIndex = 1;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column_LastName,
+            this.Column_FirstName,
+            this.Column_Nickname,
+            this.Column_email});
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(553, 150);
+            this.dataGridView1.TabIndex = 2;
             // 
-            // lbl_email
+            // Column_LastName
             // 
-            this.lbl_email.AutoSize = true;
-            this.lbl_email.Location = new System.Drawing.Point(398, 0);
-            this.lbl_email.Name = "lbl_email";
-            this.lbl_email.Size = new System.Drawing.Size(32, 13);
-            this.lbl_email.TabIndex = 3;
-            this.lbl_email.Text = "Email";
+            this.Column_LastName.HeaderText = "Last Name";
+            this.Column_LastName.Name = "Column_LastName";
             // 
-            // lbl_nickname
+            // Column_FirstName
             // 
-            this.lbl_nickname.AutoSize = true;
-            this.lbl_nickname.Location = new System.Drawing.Point(312, 0);
-            this.lbl_nickname.Name = "lbl_nickname";
-            this.lbl_nickname.Size = new System.Drawing.Size(55, 13);
-            this.lbl_nickname.TabIndex = 2;
-            this.lbl_nickname.Text = "Nickname";
+            this.Column_FirstName.HeaderText = "First Name";
+            this.Column_FirstName.Name = "Column_FirstName";
             // 
-            // lbl_first_name
+            // Column_Nickname
             // 
-            this.lbl_first_name.AutoSize = true;
-            this.lbl_first_name.Location = new System.Drawing.Point(156, 0);
-            this.lbl_first_name.Name = "lbl_first_name";
-            this.lbl_first_name.Size = new System.Drawing.Size(57, 13);
-            this.lbl_first_name.TabIndex = 1;
-            this.lbl_first_name.Text = "First Name";
+            this.Column_Nickname.HeaderText = "Nickname";
+            this.Column_Nickname.Name = "Column_Nickname";
             // 
-            // lbl_last_name
+            // Column_email
             // 
-            this.lbl_last_name.AutoSize = true;
-            this.lbl_last_name.Location = new System.Drawing.Point(3, 0);
-            this.lbl_last_name.Name = "lbl_last_name";
-            this.lbl_last_name.Size = new System.Drawing.Size(58, 13);
-            this.lbl_last_name.TabIndex = 0;
-            this.lbl_last_name.Text = "Last Name";
+            this.Column_email.HeaderText = "Email";
+            this.Column_email.Name = "Column_email";
+            // 
+            // cmd_return
+            // 
+            this.cmd_return.Location = new System.Drawing.Point(12, 268);
+            this.cmd_return.Name = "cmd_return";
+            this.cmd_return.Size = new System.Drawing.Size(33, 33);
+            this.cmd_return.TabIndex = 3;
+            this.cmd_return.Text = "←";
+            this.cmd_return.UseVisualStyleBackColor = true;
             // 
             // InterfaceContactProfesseur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(553, 333);
-            this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.cmd_return);
+            this.Controls.Add(this.dataGridView1);
             this.Name = "InterfaceContactProfesseur";
             this.Text = "Contact - Teacher";
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.InterfaceContactProfesseur_FormClosed);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Label lbl_email;
-        private System.Windows.Forms.Label lbl_nickname;
-        private System.Windows.Forms.Label lbl_first_name;
-        private System.Windows.Forms.Label lbl_last_name;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column_LastName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column_FirstName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column_Nickname;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column_email;
+        private System.Windows.Forms.Button cmd_return;
     }
 }
 

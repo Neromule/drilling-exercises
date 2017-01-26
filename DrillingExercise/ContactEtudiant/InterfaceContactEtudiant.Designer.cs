@@ -31,6 +31,7 @@
             this.lbl_mail_teacher = new System.Windows.Forms.Label();
             this.lbl_name_teacher = new System.Windows.Forms.Label();
             this.lbl_phone = new System.Windows.Forms.Label();
+            this.cmd_return = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_mail_teacher
@@ -61,16 +62,27 @@
             this.lbl_phone.TabIndex = 2;
             this.lbl_phone.Text = "*num de tel*";
             // 
+            // cmd_return
+            // 
+            this.cmd_return.Location = new System.Drawing.Point(32, 206);
+            this.cmd_return.Name = "cmd_return";
+            this.cmd_return.Size = new System.Drawing.Size(33, 33);
+            this.cmd_return.TabIndex = 4;
+            this.cmd_return.Text = "←";
+            this.cmd_return.UseVisualStyleBackColor = true;
+            // 
             // InterfaceContactEtudiant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.cmd_return);
             this.Controls.Add(this.lbl_phone);
             this.Controls.Add(this.lbl_name_teacher);
             this.Controls.Add(this.lbl_mail_teacher);
             this.Name = "InterfaceContactEtudiant";
             this.Text = "Contact - Student";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.InterfaceContactEtudiant_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -81,6 +93,7 @@
         private System.Windows.Forms.Label lbl_mail_teacher;
         private System.Windows.Forms.Label lbl_name_teacher;
         private System.Windows.Forms.Label lbl_phone;
+        private System.Windows.Forms.Button cmd_return;
     }
 }
 

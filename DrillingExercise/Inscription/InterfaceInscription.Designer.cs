@@ -41,6 +41,7 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.lbl_confirm_pswd = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cmd_return = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lbl_firstname
@@ -91,7 +92,7 @@
             // 
             // cmd_cancel
             // 
-            this.cmd_cancel.Location = new System.Drawing.Point(47, 221);
+            this.cmd_cancel.Location = new System.Drawing.Point(47, 186);
             this.cmd_cancel.Name = "cmd_cancel";
             this.cmd_cancel.Size = new System.Drawing.Size(75, 29);
             this.cmd_cancel.TabIndex = 6;
@@ -106,6 +107,7 @@
             this.cmd_signup.TabIndex = 7;
             this.cmd_signup.Text = "Sign up";
             this.cmd_signup.UseVisualStyleBackColor = true;
+            this.cmd_signup.Click += new System.EventHandler(this.cmd_signup_Click);
             // 
             // textBox2
             // 
@@ -151,11 +153,21 @@
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 14;
             // 
+            // cmd_return
+            // 
+            this.cmd_return.Location = new System.Drawing.Point(47, 221);
+            this.cmd_return.Name = "cmd_return";
+            this.cmd_return.Size = new System.Drawing.Size(33, 33);
+            this.cmd_return.TabIndex = 15;
+            this.cmd_return.Text = "←";
+            this.cmd_return.UseVisualStyleBackColor = true;
+            // 
             // InterfaceInscription
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.ClientSize = new System.Drawing.Size(284, 266);
+            this.Controls.Add(this.cmd_return);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.lbl_confirm_pswd);
             this.Controls.Add(this.textBox5);
@@ -191,6 +203,7 @@
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label lbl_confirm_pswd;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button cmd_return;
     }
 }
 

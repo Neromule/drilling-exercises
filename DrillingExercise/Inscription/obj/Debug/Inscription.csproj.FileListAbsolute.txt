@@ -1,0 +1,9 @@
+\\merlin\etudiants\caquantc\Documents\PROJET_TUTORE\drilling-exercises\DrillingExercise\Inscription\bin\Debug\Inscription.exe.config
+\\merlin\etudiants\caquantc\Documents\PROJET_TUTORE\drilling-exercises\DrillingExercise\Inscription\bin\Debug\Inscription.exe
+\\merlin\etudiants\caquantc\Documents\PROJET_TUTORE\drilling-exercises\DrillingExercise\Inscription\bin\Debug\Inscription.pdb
+\\merlin\etudiants\caquantc\Documents\PROJET_TUTORE\drilling-exercises\DrillingExercise\Inscription\obj\Debug\Inscription.csprojResolveAssemblyReference.cache
+\\merlin\etudiants\caquantc\Documents\PROJET_TUTORE\drilling-exercises\DrillingExercise\Inscription\obj\Debug\Inscription.InterfaceInscription.resources
+\\merlin\etudiants\caquantc\Documents\PROJET_TUTORE\drilling-exercises\DrillingExercise\Inscription\obj\Debug\Inscription.Properties.Resources.resources
+\\merlin\etudiants\caquantc\Documents\PROJET_TUTORE\drilling-exercises\DrillingExercise\Inscription\obj\Debug\Inscription.csproj.GenerateResource.Cache
+\\merlin\etudiants\caquantc\Documents\PROJET_TUTORE\drilling-exercises\DrillingExercise\Inscription\obj\Debug\Inscription.exe
+\\merlin\etudiants\caquantc\Documents\PROJET_TUTORE\drilling-exercises\DrillingExercise\Inscription\obj\Debug\Inscription.pdb

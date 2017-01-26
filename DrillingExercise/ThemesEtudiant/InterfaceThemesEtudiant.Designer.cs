@@ -33,6 +33,7 @@
             this.cmd_theme_2 = new System.Windows.Forms.Button();
             this.cmd_theme_3 = new System.Windows.Forms.Button();
             this.cmd_theme_4 = new System.Windows.Forms.Button();
+            this.cmd_return = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -89,11 +90,21 @@
             this.cmd_theme_4.Text = "theme4";
             this.cmd_theme_4.UseVisualStyleBackColor = true;
             // 
+            // cmd_return
+            // 
+            this.cmd_return.Location = new System.Drawing.Point(33, 198);
+            this.cmd_return.Name = "cmd_return";
+            this.cmd_return.Size = new System.Drawing.Size(33, 33);
+            this.cmd_return.TabIndex = 4;
+            this.cmd_return.Text = "←";
+            this.cmd_return.UseVisualStyleBackColor = true;
+            // 
             // InterfaceThemesEtudiant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.cmd_return);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "InterfaceThemesEtudiant";
             this.Text = "Themes - Student";
@@ -109,6 +120,7 @@
         private System.Windows.Forms.Button cmd_theme_2;
         private System.Windows.Forms.Button cmd_theme_3;
         private System.Windows.Forms.Button cmd_theme_4;
+        private System.Windows.Forms.Button cmd_return;
     }
 }
 

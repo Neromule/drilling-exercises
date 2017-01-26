@@ -33,13 +33,14 @@
             this.cmd_theme4 = new System.Windows.Forms.Button();
             this.cmd_theme3 = new System.Windows.Forms.Button();
             this.cmd_theme2 = new System.Windows.Forms.Button();
-            this.chk_1 = new System.Windows.Forms.CheckBox();
             this.chk_2 = new System.Windows.Forms.CheckBox();
             this.chk_3 = new System.Windows.Forms.CheckBox();
             this.chk_4 = new System.Windows.Forms.CheckBox();
+            this.chk_1 = new System.Windows.Forms.CheckBox();
             this.cmd_delete_theme = new System.Windows.Forms.Button();
             this.cmd_delete_items = new System.Windows.Forms.Button();
             this.cmd_add_theme = new System.Windows.Forms.Button();
+            this.cmd_return = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -104,15 +105,6 @@
             this.cmd_theme2.Text = "theme2";
             this.cmd_theme2.UseVisualStyleBackColor = true;
             // 
-            // chk_1
-            // 
-            this.chk_1.AutoSize = true;
-            this.chk_1.Location = new System.Drawing.Point(70, 3);
-            this.chk_1.Name = "chk_1";
-            this.chk_1.Size = new System.Drawing.Size(15, 14);
-            this.chk_1.TabIndex = 4;
-            this.chk_1.UseVisualStyleBackColor = true;
-            // 
             // chk_2
             // 
             this.chk_2.AutoSize = true;
@@ -140,6 +132,15 @@
             this.chk_4.TabIndex = 7;
             this.chk_4.UseVisualStyleBackColor = true;
             // 
+            // chk_1
+            // 
+            this.chk_1.AutoSize = true;
+            this.chk_1.Location = new System.Drawing.Point(70, 3);
+            this.chk_1.Name = "chk_1";
+            this.chk_1.Size = new System.Drawing.Size(15, 14);
+            this.chk_1.TabIndex = 4;
+            this.chk_1.UseVisualStyleBackColor = true;
+            // 
             // cmd_delete_theme
             // 
             this.cmd_delete_theme.Location = new System.Drawing.Point(22, 193);
@@ -151,7 +152,7 @@
             // 
             // cmd_delete_items
             // 
-            this.cmd_delete_items.Location = new System.Drawing.Point(143, 193);
+            this.cmd_delete_items.Location = new System.Drawing.Point(22, 222);
             this.cmd_delete_items.Name = "cmd_delete_items";
             this.cmd_delete_items.Size = new System.Drawing.Size(129, 23);
             this.cmd_delete_items.TabIndex = 11;
@@ -160,18 +161,28 @@
             // 
             // cmd_add_theme
             // 
-            this.cmd_add_theme.Location = new System.Drawing.Point(25, 222);
+            this.cmd_add_theme.Location = new System.Drawing.Point(187, 193);
             this.cmd_add_theme.Name = "cmd_add_theme";
             this.cmd_add_theme.Size = new System.Drawing.Size(75, 23);
             this.cmd_add_theme.TabIndex = 12;
             this.cmd_add_theme.Text = "Add a theme";
             this.cmd_add_theme.UseVisualStyleBackColor = true;
             // 
+            // cmd_return
+            // 
+            this.cmd_return.Location = new System.Drawing.Point(22, 252);
+            this.cmd_return.Name = "cmd_return";
+            this.cmd_return.Size = new System.Drawing.Size(33, 33);
+            this.cmd_return.TabIndex = 13;
+            this.cmd_return.Text = "←";
+            this.cmd_return.UseVisualStyleBackColor = true;
+            // 
             // InterfaceThemesProfesseur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
+            this.ClientSize = new System.Drawing.Size(284, 297);
+            this.Controls.Add(this.cmd_return);
             this.Controls.Add(this.cmd_add_theme);
             this.Controls.Add(this.cmd_delete_items);
             this.Controls.Add(this.tableLayoutPanel1);
@@ -198,6 +209,7 @@
         private System.Windows.Forms.Button cmd_delete_theme;
         private System.Windows.Forms.Button cmd_delete_items;
         private System.Windows.Forms.Button cmd_add_theme;
+        private System.Windows.Forms.Button cmd_return;
     }
 }
 

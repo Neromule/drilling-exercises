@@ -81,6 +81,7 @@
             this.Controls.Add(this.lbl_name_teacher);
             this.Name = "InterfaceProfesseur";
             this.Text = "Homepage - Teacher";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.InterfaceProfesseur_FormClosed);
             this.Load += new System.EventHandler(this.InterfaceProfesseur_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

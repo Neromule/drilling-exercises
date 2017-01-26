@@ -16,5 +16,10 @@ namespace ResultatsProfesseur
         {
             InitializeComponent();
         }
+
+        private void InterfaceResultatsProfesseur_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

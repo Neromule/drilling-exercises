@@ -31,6 +31,7 @@
             this.dgd_results_e = new System.Windows.Forms.DataGridView();
             this.Column_themes = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column_marks = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cmd_return = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgd_results_e)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,7 +45,7 @@
             this.dgd_results_e.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgd_results_e.Location = new System.Drawing.Point(0, 0);
             this.dgd_results_e.Name = "dgd_results_e";
-            this.dgd_results_e.Size = new System.Drawing.Size(284, 81);
+            this.dgd_results_e.Size = new System.Drawing.Size(284, 189);
             this.dgd_results_e.TabIndex = 4;
             // 
             // Column_themes
@@ -57,14 +58,25 @@
             this.Column_marks.HeaderText = "Marks";
             this.Column_marks.Name = "Column_marks";
             // 
+            // cmd_return
+            // 
+            this.cmd_return.Location = new System.Drawing.Point(12, 207);
+            this.cmd_return.Name = "cmd_return";
+            this.cmd_return.Size = new System.Drawing.Size(33, 33);
+            this.cmd_return.TabIndex = 5;
+            this.cmd_return.Text = "←";
+            this.cmd_return.UseVisualStyleBackColor = true;
+            // 
             // InterfaceResultatsEtudiant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.cmd_return);
             this.Controls.Add(this.dgd_results_e);
             this.Name = "InterfaceResultatsEtudiant";
             this.Text = "Results - Student";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.InterfaceResultatsEtudiant_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.dgd_results_e)).EndInit();
             this.ResumeLayout(false);
 
@@ -75,6 +87,7 @@
         private System.Windows.Forms.DataGridView dgd_results_e;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column_themes;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column_marks;
+        private System.Windows.Forms.Button cmd_return;
     }
 }
 

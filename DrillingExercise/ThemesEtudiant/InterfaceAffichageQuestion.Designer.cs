@@ -38,6 +38,7 @@
             this.opt_2 = new System.Windows.Forms.RadioButton();
             this.opt_1 = new System.Windows.Forms.RadioButton();
             this.lbl_reponse_1 = new System.Windows.Forms.Label();
+            this.cmd_correction = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -143,11 +144,22 @@
             this.lbl_reponse_1.TabIndex = 4;
             this.lbl_reponse_1.Text = "*rep 1*";
             // 
+            // cmd_correction
+            // 
+            this.cmd_correction.Location = new System.Drawing.Point(318, 216);
+            this.cmd_correction.Name = "cmd_correction";
+            this.cmd_correction.Size = new System.Drawing.Size(96, 23);
+            this.cmd_correction.TabIndex = 14;
+            this.cmd_correction.Text = "Correction →";
+            this.cmd_correction.UseVisualStyleBackColor = true;
+            this.cmd_correction.Click += new System.EventHandler(this.button2_Click);
+            // 
             // InterfaceAffichageQuestion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(449, 262);
+            this.Controls.Add(this.cmd_correction);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.txt_poss_1);
             this.Controls.Add(this.lbl_question);
@@ -173,5 +185,6 @@
         private System.Windows.Forms.RadioButton opt_2;
         private System.Windows.Forms.RadioButton opt_1;
         private System.Windows.Forms.Label lbl_reponse_1;
+        private System.Windows.Forms.Button cmd_correction;
     }
 }

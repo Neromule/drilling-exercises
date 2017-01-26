@@ -21,5 +21,10 @@ namespace Professeur
         {
 
         }
+
+        private void InterfaceProfesseur_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

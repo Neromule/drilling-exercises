@@ -26,5 +26,10 @@ namespace ResultatsEtudiant
         {
 
         }
+
+        private void InterfaceResultatsEtudiant_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

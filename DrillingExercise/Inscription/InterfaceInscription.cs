@@ -21,5 +21,10 @@ namespace Inscription
         {
 
         }
+
+        private void cmd_signup_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Code d'inscription", "entrer le code:",0);
+        }
     }
 }

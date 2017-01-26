@@ -79,6 +79,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Etudiant\Etudiant.csproj">
+      <Project>{68BCF683-F6B2-45B6-A096-EBDDE142DF89}</Project>
+      <Name>Etudiant</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Inscription\Inscription.csproj">
+      <Project>{97853155-8718-4071-A2A0-7200CDDE2D5B}</Project>
+      <Name>Inscription</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -21,5 +21,10 @@ namespace ContactEtudiant
         {
 
         }
+
+        private void InterfaceContactEtudiant_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
