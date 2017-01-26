@@ -1,0 +1,12 @@
+D:\Projet\drilling-exercises\DrillingExercise\ThemesProfesseur\bin\Debug\ThemesProfesseur.exe.config
+D:\Projet\drilling-exercises\DrillingExercise\ThemesProfesseur\bin\Debug\ThemesProfesseur.exe
+D:\Projet\drilling-exercises\DrillingExercise\ThemesProfesseur\bin\Debug\ThemesProfesseur.pdb
+D:\Projet\drilling-exercises\DrillingExercise\ThemesProfesseur\obj\Debug\ThemesProfesseur.csprojResolveAssemblyReference.cache
+D:\Projet\drilling-exercises\DrillingExercise\ThemesProfesseur\obj\Debug\ThemesProfesseur.InterfaceAjouterQuestion.resources
+D:\Projet\drilling-exercises\DrillingExercise\ThemesProfesseur\obj\Debug\ThemesProfesseur.InterfaceAjouterTheme.resources
+D:\Projet\drilling-exercises\DrillingExercise\ThemesProfesseur\obj\Debug\ThemesProfesseur.InterfaceModifierTheme.resources
+D:\Projet\drilling-exercises\DrillingExercise\ThemesProfesseur\obj\Debug\ThemesProfesseur.InterfaceThemesProfesseur.resources
+D:\Projet\drilling-exercises\DrillingExercise\ThemesProfesseur\obj\Debug\ThemesProfesseur.Properties.Resources.resources
+D:\Projet\drilling-exercises\DrillingExercise\ThemesProfesseur\obj\Debug\ThemesProfesseur.csproj.GenerateResource.Cache
+D:\Projet\drilling-exercises\DrillingExercise\ThemesProfesseur\obj\Debug\ThemesProfesseur.exe
+D:\Projet\drilling-exercises\DrillingExercise\ThemesProfesseur\obj\Debug\ThemesProfesseur.pdb

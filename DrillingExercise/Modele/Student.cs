@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Modele
 {
-    class Student : User
+    public class Student : User
     {
         private List<Theme> toDo;
         private Dictionary<Theme, int> marks;

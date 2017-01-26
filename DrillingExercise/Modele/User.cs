@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Modele
 {
-    abstract class User
+    abstract public class User
     {
         private int id;
         private String firstName;

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connexion", "Connexion\Connexion.csproj", "{43E5E83E-74FC-45B1-A0E5-8E154983ECB3}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactProfesseur", "ContactProfesseur\ContactProfesseur.csproj", "{18BE8E31-9158-4FC7-BB18-9AE0F2125912}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactEtudiant", "ContactEtudiant\ContactEtudiant.csproj", "{1AD88E96-12C7-4A8D-82A5-76B7BECB41B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modele", "Modele\Modele.csproj", "{FF81B044-680D-4599-BD76-A0CC91046039}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{1AD88E96-12C7-4A8D-82A5-76B7BECB41B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AD88E96-12C7-4A8D-82A5-76B7BECB41B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AD88E96-12C7-4A8D-82A5-76B7BECB41B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF81B044-680D-4599-BD76-A0CC91046039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF81B044-680D-4599-BD76-A0CC91046039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF81B044-680D-4599-BD76-A0CC91046039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF81B044-680D-4599-BD76-A0CC91046039}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,4 @@
+D:\Projet\drilling-exercises\DrillingExercise\ResultatsProfesseur\obj\Debug\ResultatsProfesseur.csprojResolveAssemblyReference.cache
+D:\Projet\drilling-exercises\DrillingExercise\ResultatsProfesseur\obj\Debug\ResultatsProfesseur.InterfaceResultatsProfesseur.resources
+D:\Projet\drilling-exercises\DrillingExercise\ResultatsProfesseur\obj\Debug\ResultatsProfesseur.Properties.Resources.resources
+D:\Projet\drilling-exercises\DrillingExercise\ResultatsProfesseur\obj\Debug\ResultatsProfesseur.csproj.GenerateResource.Cache

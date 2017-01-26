@@ -1,0 +1,9 @@
+D:\Projet\drilling-exercises\DrillingExercise\ContactEtudiant\bin\Debug\ContactEtudiant.exe.config
+D:\Projet\drilling-exercises\DrillingExercise\ContactEtudiant\bin\Debug\ContactEtudiant.exe
+D:\Projet\drilling-exercises\DrillingExercise\ContactEtudiant\bin\Debug\ContactEtudiant.pdb
+D:\Projet\drilling-exercises\DrillingExercise\ContactEtudiant\obj\Debug\ContactEtudiant.csprojResolveAssemblyReference.cache
+D:\Projet\drilling-exercises\DrillingExercise\ContactEtudiant\obj\Debug\ContactEtudiant.InterfaceContactEtudiant.resources
+D:\Projet\drilling-exercises\DrillingExercise\ContactEtudiant\obj\Debug\ContactEtudiant.Properties.Resources.resources
+D:\Projet\drilling-exercises\DrillingExercise\ContactEtudiant\obj\Debug\ContactEtudiant.csproj.GenerateResource.Cache
+D:\Projet\drilling-exercises\DrillingExercise\ContactEtudiant\obj\Debug\ContactEtudiant.exe
+D:\Projet\drilling-exercises\DrillingExercise\ContactEtudiant\obj\Debug\ContactEtudiant.pdb

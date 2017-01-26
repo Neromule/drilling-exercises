@@ -1,0 +1,9 @@
+D:\Projet\drilling-exercises\DrillingExercise\Professeur\bin\Debug\Professeur.exe.config
+D:\Projet\drilling-exercises\DrillingExercise\Professeur\bin\Debug\Professeur.exe
+D:\Projet\drilling-exercises\DrillingExercise\Professeur\bin\Debug\Professeur.pdb
+D:\Projet\drilling-exercises\DrillingExercise\Professeur\obj\Debug\Professeur.csprojResolveAssemblyReference.cache
+D:\Projet\drilling-exercises\DrillingExercise\Professeur\obj\Debug\Professeur.InterfaceProfesseur.resources
+D:\Projet\drilling-exercises\DrillingExercise\Professeur\obj\Debug\Professeur.Properties.Resources.resources
+D:\Projet\drilling-exercises\DrillingExercise\Professeur\obj\Debug\Professeur.csproj.GenerateResource.Cache
+D:\Projet\drilling-exercises\DrillingExercise\Professeur\obj\Debug\Professeur.exe
+D:\Projet\drilling-exercises\DrillingExercise\Professeur\obj\Debug\Professeur.pdb
