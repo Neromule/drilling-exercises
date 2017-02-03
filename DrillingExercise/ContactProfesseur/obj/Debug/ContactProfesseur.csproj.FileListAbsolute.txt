@@ -1,9 +1,0 @@
-D:\Projet\drilling-exercises\DrillingExercise\ContactProfesseur\bin\Debug\ContactProfesseur.exe.config
-D:\Projet\drilling-exercises\DrillingExercise\ContactProfesseur\bin\Debug\ContactProfesseur.exe
-D:\Projet\drilling-exercises\DrillingExercise\ContactProfesseur\bin\Debug\ContactProfesseur.pdb
-D:\Projet\drilling-exercises\DrillingExercise\ContactProfesseur\obj\Debug\ContactProfesseur.csprojResolveAssemblyReference.cache
-D:\Projet\drilling-exercises\DrillingExercise\ContactProfesseur\obj\Debug\ContactProfesseur.InterfaceContactProfesseur.resources
-D:\Projet\drilling-exercises\DrillingExercise\ContactProfesseur\obj\Debug\ContactProfesseur.Properties.Resources.resources
-D:\Projet\drilling-exercises\DrillingExercise\ContactProfesseur\obj\Debug\ContactProfesseur.csproj.GenerateResource.Cache
-D:\Projet\drilling-exercises\DrillingExercise\ContactProfesseur\obj\Debug\ContactProfesseur.exe
-D:\Projet\drilling-exercises\DrillingExercise\ContactProfesseur\obj\Debug\ContactProfesseur.pdb

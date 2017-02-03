@@ -1,6 +1,6 @@
-﻿namespace Etudiant
+﻿namespace Drilling
 {
-    partial class InterfaceEtudiant
+    public partial class InterfaceEtudiant
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -42,6 +42,7 @@
             this.cmd_contact_e.TabIndex = 7;
             this.cmd_contact_e.Text = "Contact";
             this.cmd_contact_e.UseVisualStyleBackColor = true;
+            this.cmd_contact_e.Click += new System.EventHandler(this.cmd_contact_e_Click);
             // 
             // cmd_results_e
             // 
@@ -51,6 +52,7 @@
             this.cmd_results_e.TabIndex = 6;
             this.cmd_results_e.Text = "Results";
             this.cmd_results_e.UseVisualStyleBackColor = true;
+            this.cmd_results_e.Click += new System.EventHandler(this.cmd_results_e_Click);
             // 
             // cmd_themes_e
             // 
@@ -60,6 +62,7 @@
             this.cmd_themes_e.TabIndex = 5;
             this.cmd_themes_e.Text = "Themes";
             this.cmd_themes_e.UseVisualStyleBackColor = true;
+            this.cmd_themes_e.Click += new System.EventHandler(this.cmd_themes_e_Click);
             // 
             // lbl_name_student
             // 
@@ -80,8 +83,10 @@
             this.Controls.Add(this.cmd_themes_e);
             this.Controls.Add(this.lbl_name_student);
             this.Name = "InterfaceEtudiant";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Homepage - Student";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.InterfaceEtudiant_FormClosed);
+            this.Load += new System.EventHandler(this.InterfaceEtudiant_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

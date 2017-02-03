@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{68BCF683-F6B2-45B6-A096-EBDDE142DF89}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Etudiant</RootNamespace>
     <AssemblyName>Etudiant</AssemblyName>
@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,16 +49,61 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ThemesEtudiant\InterfaceAffichageCorrection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemesEtudiant\InterfaceAffichageCorrection.Designer.cs">
+      <DependentUpon>InterfaceAffichageCorrection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemesEtudiant\InterfaceAffichageQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemesEtudiant\InterfaceAffichageQuestion.Designer.cs">
+      <DependentUpon>InterfaceAffichageQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContactProfesseur\InterfaceContactProfesseur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContactProfesseur\InterfaceContactProfesseur.Designer.cs">
+      <DependentUpon>InterfaceContactProfesseur.cs</DependentUpon>
+    </Compile>
     <Compile Include="InterfaceEtudiant.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="InterfaceEtudiant.Designer.cs">
       <DependentUpon>InterfaceEtudiant.cs</DependentUpon>
     </Compile>
+    <Compile Include="ResultatsEtudiant\InterfaceResultatsEtudiant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResultatsEtudiant\InterfaceResultatsEtudiant.Designer.cs">
+      <DependentUpon>InterfaceResultatsEtudiant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemesEtudiant\InterfaceThemesEtudiant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemesEtudiant\InterfaceThemesEtudiant.Designer.cs">
+      <DependentUpon>InterfaceThemesEtudiant.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ThemesEtudiant\InterfaceAffichageCorrection.resx">
+      <DependentUpon>InterfaceAffichageCorrection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemesEtudiant\InterfaceAffichageQuestion.resx">
+      <DependentUpon>InterfaceAffichageQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContactProfesseur\InterfaceContactProfesseur.resx">
+      <DependentUpon>InterfaceContactProfesseur.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InterfaceEtudiant.resx">
       <DependentUpon>InterfaceEtudiant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultatsEtudiant\InterfaceResultatsEtudiant.resx">
+      <DependentUpon>InterfaceResultatsEtudiant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemesEtudiant\InterfaceThemesEtudiant.resx">
+      <DependentUpon>InterfaceThemesEtudiant.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

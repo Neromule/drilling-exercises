@@ -1,0 +1,7 @@
+C:\Users\Valentin\Desktop\DrillingExercise\Icons\bin\Debug\Icons.dll
+C:\Users\Valentin\Desktop\DrillingExercise\Icons\bin\Debug\Icons.pdb
+C:\Users\Valentin\Desktop\DrillingExercise\Icons\obj\Debug\Icons.csproj.GenerateResource.Cache
+C:\Users\Valentin\Desktop\DrillingExercise\Icons\obj\Debug\Icons.dll
+C:\Users\Valentin\Desktop\DrillingExercise\Icons\obj\Debug\Icons.pdb
+C:\Users\Valentin\Desktop\DrillingExercise\Icons\obj\Debug\Drilling.Properties.Resources.resources
+C:\Users\Valentin\Desktop\DrillingExercise\Icons\obj\Debug\Icons.csprojResolveAssemblyReference.cache

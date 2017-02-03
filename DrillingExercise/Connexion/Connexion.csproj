@@ -32,6 +32,13 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <Win32Resource>
+    </Win32Resource>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo_drilling.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,10 +59,28 @@
     <Compile Include="InterfaceConnexion.Designer.cs">
       <DependentUpon>InterfaceConnexion.cs</DependentUpon>
     </Compile>
+    <Compile Include="InterfaceInscription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfaceInscription.Designer.cs">
+      <DependentUpon>InterfaceInscription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterfaceValidation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterfaceValidation.Designer.cs">
+      <DependentUpon>InterfaceValidation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="InterfaceConnexion.resx">
       <DependentUpon>InterfaceConnexion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfaceInscription.resx">
+      <DependentUpon>InterfaceInscription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterfaceValidation.resx">
+      <DependentUpon>InterfaceValidation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -80,14 +105,25 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Components\Components.csproj">
+      <Project>{ea381174-bb1e-47cf-a1f1-07f6c36308b6}</Project>
+      <Name>Components</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Etudiant\Etudiant.csproj">
       <Project>{68BCF683-F6B2-45B6-A096-EBDDE142DF89}</Project>
       <Name>Etudiant</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Inscription\Inscription.csproj">
-      <Project>{97853155-8718-4071-A2A0-7200CDDE2D5B}</Project>
-      <Name>Inscription</Name>
+    <ProjectReference Include="..\Icons\Icons.csproj">
+      <Project>{d59eeb53-3ffd-4189-8608-27fbb59d5923}</Project>
+      <Name>Icons</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Professeur\Professeur.csproj">
+      <Project>{84d8699e-b70b-4b01-be93-8373bc81a319}</Project>
+      <Name>Professeur</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo_drilling.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

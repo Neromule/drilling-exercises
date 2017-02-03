@@ -1,5 +1,4 @@
 ﻿using Etudiant;
-using Inscription;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,31 +9,25 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Connexion
+namespace Drilling
 {
     public partial class InterfaceConnexion : Form
     {   
         public InterfaceConnexion()
         {
             InitializeComponent();
+            Icon = Icons.LogoDrilling;
         }
 
         private void cmd_signin_Click(object sender, EventArgs e)
         {
-
-            InterfaceEtudiant etud = new InterfaceEtudiant();
-            etud.Show();
-            etud.Activate();
             this.Hide();
-            
-
-
+            new InterfaceEtudiant().ShowDialog();   
+            this.Close();      
         }
-
-        private void cmd_signup_Click(object sender, EventArgs e)
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            new InterfaceInscription().Show();
-
+            new InterfaceInscription(this).ShowDialog();
         }
     }
 }

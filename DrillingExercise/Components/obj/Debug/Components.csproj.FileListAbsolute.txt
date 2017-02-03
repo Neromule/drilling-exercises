@@ -1,0 +1,6 @@
+C:\Users\Valentin\Desktop\DrillingExercise\Components\bin\Debug\Components.dll
+C:\Users\Valentin\Desktop\DrillingExercise\Components\bin\Debug\Components.pdb
+C:\Users\Valentin\Desktop\DrillingExercise\Components\bin\Debug\MySql.Data.dll
+C:\Users\Valentin\Desktop\DrillingExercise\Components\obj\Debug\Components.csprojResolveAssemblyReference.cache
+C:\Users\Valentin\Desktop\DrillingExercise\Components\obj\Debug\Components.dll
+C:\Users\Valentin\Desktop\DrillingExercise\Components\obj\Debug\Components.pdb

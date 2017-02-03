@@ -1,9 +1,0 @@
-D:\Projet\drilling-exercises\DrillingExercise\ResultatsEtudiant\bin\Debug\ResultatsEtudiant.exe.config
-D:\Projet\drilling-exercises\DrillingExercise\ResultatsEtudiant\bin\Debug\ResultatsEtudiant.exe
-D:\Projet\drilling-exercises\DrillingExercise\ResultatsEtudiant\bin\Debug\ResultatsEtudiant.pdb
-D:\Projet\drilling-exercises\DrillingExercise\ResultatsEtudiant\obj\Debug\ResultatsEtudiant.csprojResolveAssemblyReference.cache
-D:\Projet\drilling-exercises\DrillingExercise\ResultatsEtudiant\obj\Debug\ResultatsEtudiant.InterfaceResultatsEtudiant.resources
-D:\Projet\drilling-exercises\DrillingExercise\ResultatsEtudiant\obj\Debug\ResultatsEtudiant.Properties.Resources.resources
-D:\Projet\drilling-exercises\DrillingExercise\ResultatsEtudiant\obj\Debug\ResultatsEtudiant.csproj.GenerateResource.Cache
-D:\Projet\drilling-exercises\DrillingExercise\ResultatsEtudiant\obj\Debug\ResultatsEtudiant.exe
-D:\Projet\drilling-exercises\DrillingExercise\ResultatsEtudiant\obj\Debug\ResultatsEtudiant.pdb

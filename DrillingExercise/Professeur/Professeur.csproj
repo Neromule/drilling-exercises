@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{84D8699E-B70B-4B01-BE93-8373BC81A319}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Professeur</RootNamespace>
     <AssemblyName>Professeur</AssemblyName>
@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,16 +49,70 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ThemesProfesseur\InterfaceAjouterQuestion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemesProfesseur\InterfaceAjouterQuestion.Designer.cs">
+      <DependentUpon>InterfaceAjouterQuestion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemesProfesseur\InterfaceAjouterTheme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemesProfesseur\InterfaceAjouterTheme.Designer.cs">
+      <DependentUpon>InterfaceAjouterTheme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContactEtudiant\InterfaceContactEtudiant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContactEtudiant\InterfaceContactEtudiant.Designer.cs">
+      <DependentUpon>InterfaceContactEtudiant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemesProfesseur\InterfaceModifierTheme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemesProfesseur\InterfaceModifierTheme.Designer.cs">
+      <DependentUpon>InterfaceModifierTheme.cs</DependentUpon>
+    </Compile>
     <Compile Include="InterfaceProfesseur.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="InterfaceProfesseur.Designer.cs">
       <DependentUpon>InterfaceProfesseur.cs</DependentUpon>
     </Compile>
+    <Compile Include="ResultatsProfesseur\InterfaceResultatsProfesseur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResultatsProfesseur\InterfaceResultatsProfesseur.Designer.cs">
+      <DependentUpon>InterfaceResultatsProfesseur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemesProfesseur\InterfaceThemesProfesseur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemesProfesseur\InterfaceThemesProfesseur.Designer.cs">
+      <DependentUpon>InterfaceThemesProfesseur.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ThemesProfesseur\InterfaceAjouterQuestion.resx">
+      <DependentUpon>InterfaceAjouterQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemesProfesseur\InterfaceAjouterTheme.resx">
+      <DependentUpon>InterfaceAjouterTheme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContactEtudiant\InterfaceContactEtudiant.resx">
+      <DependentUpon>InterfaceContactEtudiant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemesProfesseur\InterfaceModifierTheme.resx">
+      <DependentUpon>InterfaceModifierTheme.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="InterfaceProfesseur.resx">
       <DependentUpon>InterfaceProfesseur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultatsProfesseur\InterfaceResultatsProfesseur.resx">
+      <DependentUpon>InterfaceResultatsProfesseur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemesProfesseur\InterfaceThemesProfesseur.resx">
+      <DependentUpon>InterfaceThemesProfesseur.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -79,6 +136,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

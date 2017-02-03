@@ -1,4 +1,4 @@
-﻿namespace Professeur
+﻿namespace Drilling
 {
     partial class InterfaceProfesseur
     {
@@ -51,6 +51,7 @@
             this.cmd_themes_p.TabIndex = 1;
             this.cmd_themes_p.Text = "Themes";
             this.cmd_themes_p.UseVisualStyleBackColor = true;
+            this.cmd_themes_p.Click += new System.EventHandler(this.cmd_themes_p_Click);
             // 
             // cmd_results_p
             // 
@@ -60,6 +61,7 @@
             this.cmd_results_p.TabIndex = 2;
             this.cmd_results_p.Text = "Results";
             this.cmd_results_p.UseVisualStyleBackColor = true;
+            this.cmd_results_p.Click += new System.EventHandler(this.cmd_results_p_Click);
             // 
             // cmd_contact_p
             // 
@@ -69,6 +71,7 @@
             this.cmd_contact_p.TabIndex = 3;
             this.cmd_contact_p.Text = "Contact";
             this.cmd_contact_p.UseVisualStyleBackColor = true;
+            this.cmd_contact_p.Click += new System.EventHandler(this.cmd_contact_p_Click);
             // 
             // InterfaceProfesseur
             // 

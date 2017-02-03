@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Etudiant
+namespace Drilling
 {
-    static class Program
+    public static class Program
     {
         /// <summary>
         /// Point d'entrée principal de l'application.

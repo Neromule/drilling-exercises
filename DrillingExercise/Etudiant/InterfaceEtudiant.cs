@@ -7,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-namespace Etudiant
+
+namespace Drilling
 {
     public partial class InterfaceEtudiant : Form
     {
@@ -19,6 +20,29 @@ namespace Etudiant
         private void InterfaceEtudiant_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void cmd_contact_e_Click(object sender, EventArgs e)
+        {
+            //new InterfaceContactEtudiant().Show();
+            this.Close();
+        }
+
+        private void cmd_themes_e_Click(object sender, EventArgs e)
+        {
+            Hide();
+            new InterfaceThemesEtudiant(this).ShowDialog();
+        }
+
+        private void cmd_results_e_Click(object sender, EventArgs e)
+        {
+            new InterfaceResultatsEtudiant().Show();
+            this.Hide();
+        }
+
+        private void InterfaceEtudiant_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
