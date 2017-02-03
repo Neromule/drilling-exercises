@@ -29,5 +29,10 @@ namespace Drilling
         {
             new InterfaceInscription(this).ShowDialog();
         }
+
+        private void lbl_lostPassword_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            //todo
+        }
     }
 }

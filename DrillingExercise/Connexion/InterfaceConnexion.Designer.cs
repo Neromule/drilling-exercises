@@ -55,6 +55,7 @@
             this.txt_pswd.Name = "txt_pswd";
             this.txt_pswd.Size = new System.Drawing.Size(180, 20);
             this.txt_pswd.TabIndex = 9;
+            this.txt_pswd.Text = "azerty";
             this.txt_pswd.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txt_pswd.UseSystemPasswordChar = true;
             // 
@@ -64,6 +65,7 @@
             this.txt_user.Name = "txt_user";
             this.txt_user.Size = new System.Drawing.Size(180, 20);
             this.txt_user.TabIndex = 8;
+            this.txt_user.Text = "test.drilling";
             this.txt_user.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // lbl_pswd
@@ -118,6 +120,7 @@
             this.lbl_lostPassword.TabIndex = 13;
             this.lbl_lostPassword.TabStop = true;
             this.lbl_lostPassword.Text = "Password lost";
+            this.lbl_lostPassword.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lbl_lostPassword_LinkClicked);
             // 
             // InterfaceConnexion
             // 
