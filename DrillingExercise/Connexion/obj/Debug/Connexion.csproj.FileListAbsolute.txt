@@ -38,3 +38,6 @@ C:\Users\Valentin\Desktop\DrillingExercise\Connexion\bin\Debug\Components.pdb
 C:\Users\Valentin\Desktop\DrillingExercise\Connexion\obj\Debug\Drilling.InterfaceValidation.resources
 C:\Users\Valentin\Desktop\DrillingExercise\Connexion\bin\Debug\Icons.dll
 C:\Users\Valentin\Desktop\DrillingExercise\Connexion\bin\Debug\Icons.pdb
+D:\Projet\drilling-exercises\DrillingExercise\Connexion\bin\Debug\Connexion.exe.config
+D:\Projet\drilling-exercises\DrillingExercise\Connexion\obj\Debug\Connexion.exe
+D:\Projet\drilling-exercises\DrillingExercise\Connexion\obj\Debug\Connexion.pdb
