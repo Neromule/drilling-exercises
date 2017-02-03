@@ -39,3 +39,17 @@ C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Etudiant\obj\Deb
 C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Etudiant.csproj.GenerateResource.Cache
 C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Etudiant.dll
 C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Etudiant.pdb
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Etudiant\bin\Debug\Etudiant.dll.config
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Etudiant\bin\Debug\Etudiant.dll
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Etudiant\bin\Debug\Etudiant.pdb
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Etudiant.csprojResolveAssemblyReference.cache
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Drilling.InterfaceAffichageCorrection.resources
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Drilling.InterfaceAffichageQuestion.resources
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Drilling.InterfaceEtudiant.resources
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Drilling.InterfaceResultatsEtudiant.resources
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Drilling.InterfaceThemesEtudiant.resources
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Etudiant.Properties.Resources.resources
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Etudiant.csproj.GenerateResource.Cache
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Etudiant.dll
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Etudiant.pdb
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Drilling.InterfaceContactEtudiant.resources

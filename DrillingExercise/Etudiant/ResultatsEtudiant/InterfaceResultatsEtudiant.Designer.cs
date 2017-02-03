@@ -86,8 +86,8 @@ namespace Drilling
             this.Controls.Add(this.cmd_return);
             this.Controls.Add(this.dgd_results_e);
             this.Name = "InterfaceResultatsEtudiant";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Results - Student";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.InterfaceResultatsEtudiant_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.dgd_results_e)).EndInit();
             this.ResumeLayout(false);
 

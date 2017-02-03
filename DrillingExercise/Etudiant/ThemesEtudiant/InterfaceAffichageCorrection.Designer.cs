@@ -79,6 +79,7 @@
             this.Controls.Add(this.lbl_answer);
             this.Controls.Add(this.lbl_correction);
             this.Name = "InterfaceAffichageCorrection";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Answer - Student";
             this.ResumeLayout(false);
             this.PerformLayout();

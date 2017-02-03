@@ -12,15 +12,18 @@ namespace Drilling
 {
     public partial class InterfaceThemesProfesseur : Form
     {
-        public InterfaceThemesProfesseur()
+        InterfaceProfesseur m_parent;
+
+        public InterfaceThemesProfesseur(InterfaceProfesseur p)
         {
             InitializeComponent();
+            m_parent = p;
         }
 
         private void cmd_return_Click(object sender, EventArgs e)
         {
-            new InterfaceProfesseur().Show();
-            this.Hide();
+            Close();
+            m_parent.Show();
         }
     }
 }

@@ -24,8 +24,8 @@ namespace Drilling
 
         private void cmd_contact_e_Click(object sender, EventArgs e)
         {
-            //new InterfaceContactEtudiant().Show();
-            this.Close();
+            Hide();
+            new InterfaceContactEtudiant(this).ShowDialog();
         }
 
         private void cmd_themes_e_Click(object sender, EventArgs e)
@@ -36,8 +36,8 @@ namespace Drilling
 
         private void cmd_results_e_Click(object sender, EventArgs e)
         {
-            new InterfaceResultatsEtudiant().Show();
-            this.Hide();
+            Hide();
+            new InterfaceResultatsEtudiant(this).ShowDialog();
         }
 
         private void InterfaceEtudiant_Load(object sender, EventArgs e)

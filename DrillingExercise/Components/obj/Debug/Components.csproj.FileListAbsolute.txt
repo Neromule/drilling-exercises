@@ -10,3 +10,9 @@ C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Components\bin\D
 C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Components\obj\Debug\Components.csprojResolveAssemblyReference.cache
 C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Components\obj\Debug\Components.dll
 C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Components\obj\Debug\Components.pdb
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Components\bin\Debug\Components.dll
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Components\bin\Debug\Components.pdb
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Components\bin\Debug\MySql.Data.dll
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Components\obj\Debug\Components.csprojResolveAssemblyReference.cache
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Components\obj\Debug\Components.dll
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Components\obj\Debug\Components.pdb

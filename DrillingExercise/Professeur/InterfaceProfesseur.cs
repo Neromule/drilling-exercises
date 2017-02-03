@@ -29,19 +29,20 @@ namespace Drilling
 
         private void cmd_contact_p_Click(object sender, EventArgs e)
         {
-            //new InterfaceContactProfesseur().Show();
+            Hide();
+            new InterfaceContactProfesseur(this).ShowDialog();
         }
 
         private void cmd_results_p_Click(object sender, EventArgs e)
         {
-            new InterfaceResultatsProfesseur().Show();
-            this.Hide();
+            Hide();
+            new InterfaceResultatsProfesseur(this).ShowDialog();
         }
 
         private void cmd_themes_p_Click(object sender, EventArgs e)
         {
-            new InterfaceThemesProfesseur().Show();
-            this.Hide();
+            Hide();
+            new InterfaceThemesProfesseur(this).ShowDialog();
         }
     }
 }

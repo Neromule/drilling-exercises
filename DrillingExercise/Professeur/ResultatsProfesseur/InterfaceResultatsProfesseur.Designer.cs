@@ -153,8 +153,8 @@
             this.Controls.Add(this.opt_by_mark);
             this.Controls.Add(this.opt_by_theme);
             this.Name = "InterfaceResultatsProfesseur";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Results - Teacher";
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.InterfaceResultatsProfesseur_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.dgd_results)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

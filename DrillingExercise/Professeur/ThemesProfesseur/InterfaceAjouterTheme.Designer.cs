@@ -78,6 +78,7 @@
             this.Controls.Add(this.txt_add_theme);
             this.Controls.Add(this.lbl_name_theme);
             this.Name = "InterfaceAjouterTheme";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Add a theme - Teacher";
             this.ResumeLayout(false);
             this.PerformLayout();

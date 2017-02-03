@@ -14,30 +14,18 @@ namespace Drilling
 {
     public partial class InterfaceResultatsEtudiant : Form
     {
-        public InterfaceResultatsEtudiant()
+        InterfaceEtudiant m_parent;
+
+        public InterfaceResultatsEtudiant(InterfaceEtudiant p)
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void InterfaceResultatsEtudiant_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            Application.Exit();
+            m_parent = p;
         }
 
         private void cmd_return_Click(object sender, EventArgs e)
         {
-            //new InterfaceEtudiant().Show();
-            this.Hide();
+            Close();
+            m_parent.Show();
         }
     }
 }

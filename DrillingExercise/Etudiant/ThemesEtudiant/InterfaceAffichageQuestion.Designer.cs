@@ -165,6 +165,7 @@
             this.Controls.Add(this.lbl_question);
             this.Controls.Add(this.lbl_name_theme);
             this.Name = "InterfaceAffichageQuestion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Question - Student";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();

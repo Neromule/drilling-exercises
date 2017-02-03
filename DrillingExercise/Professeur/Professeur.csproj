@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContactProfesseur\InterfaceContactProfesseur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContactProfesseur\InterfaceContactProfesseur.Designer.cs">
+      <DependentUpon>InterfaceContactProfesseur.cs</DependentUpon>
+    </Compile>
     <Compile Include="ThemesProfesseur\InterfaceAjouterQuestion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,12 +66,6 @@
     </Compile>
     <Compile Include="ThemesProfesseur\InterfaceAjouterTheme.Designer.cs">
       <DependentUpon>InterfaceAjouterTheme.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ContactEtudiant\InterfaceContactEtudiant.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ContactEtudiant\InterfaceContactEtudiant.Designer.cs">
-      <DependentUpon>InterfaceContactEtudiant.cs</DependentUpon>
     </Compile>
     <Compile Include="ThemesProfesseur\InterfaceModifierTheme.cs">
       <SubType>Form</SubType>
@@ -93,14 +93,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ContactProfesseur\InterfaceContactProfesseur.resx">
+      <DependentUpon>InterfaceContactProfesseur.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ThemesProfesseur\InterfaceAjouterQuestion.resx">
       <DependentUpon>InterfaceAjouterQuestion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThemesProfesseur\InterfaceAjouterTheme.resx">
       <DependentUpon>InterfaceAjouterTheme.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ContactEtudiant\InterfaceContactEtudiant.resx">
-      <DependentUpon>InterfaceContactEtudiant.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThemesProfesseur\InterfaceModifierTheme.resx">
       <DependentUpon>InterfaceModifierTheme.cs</DependentUpon>

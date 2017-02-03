@@ -8,14 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
 namespace Drilling
 {
-    public partial class InterfaceResultatsProfesseur : Form
+    public partial class InterfaceContactProfesseur : Form
     {
         InterfaceProfesseur m_parent;
 
-        public InterfaceResultatsProfesseur(InterfaceProfesseur p)
+        public InterfaceContactProfesseur(InterfaceProfesseur p)
         {
             InitializeComponent();
             m_parent = p;

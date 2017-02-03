@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContactEtudiant\InterfaceContactEtudiant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContactEtudiant\InterfaceContactEtudiant.Designer.cs">
+      <DependentUpon>InterfaceContactEtudiant.cs</DependentUpon>
+    </Compile>
     <Compile Include="ThemesEtudiant\InterfaceAffichageCorrection.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,12 +66,6 @@
     </Compile>
     <Compile Include="ThemesEtudiant\InterfaceAffichageQuestion.Designer.cs">
       <DependentUpon>InterfaceAffichageQuestion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ContactProfesseur\InterfaceContactProfesseur.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ContactProfesseur\InterfaceContactProfesseur.Designer.cs">
-      <DependentUpon>InterfaceContactProfesseur.cs</DependentUpon>
     </Compile>
     <Compile Include="InterfaceEtudiant.cs">
       <SubType>Form</SubType>
@@ -87,14 +87,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ContactEtudiant\InterfaceContactEtudiant.resx">
+      <DependentUpon>InterfaceContactEtudiant.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ThemesEtudiant\InterfaceAffichageCorrection.resx">
       <DependentUpon>InterfaceAffichageCorrection.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThemesEtudiant\InterfaceAffichageQuestion.resx">
       <DependentUpon>InterfaceAffichageQuestion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ContactProfesseur\InterfaceContactProfesseur.resx">
-      <DependentUpon>InterfaceContactProfesseur.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="InterfaceEtudiant.resx">
       <DependentUpon>InterfaceEtudiant.cs</DependentUpon>

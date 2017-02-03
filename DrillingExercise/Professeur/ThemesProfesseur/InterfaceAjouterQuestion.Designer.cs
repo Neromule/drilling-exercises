@@ -256,6 +256,7 @@
             this.Controls.Add(this.lbl_answer);
             this.Controls.Add(this.lbl_question);
             this.Name = "InterfaceAjouterQuestion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Add a question -Teacher";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();

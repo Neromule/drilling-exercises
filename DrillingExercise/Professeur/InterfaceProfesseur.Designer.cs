@@ -83,6 +83,7 @@
             this.Controls.Add(this.cmd_themes_p);
             this.Controls.Add(this.lbl_name_teacher);
             this.Name = "InterfaceProfesseur";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Homepage - Teacher";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.InterfaceProfesseur_FormClosed);
             this.Load += new System.EventHandler(this.InterfaceProfesseur_Load);

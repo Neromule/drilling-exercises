@@ -189,6 +189,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.cmd_delete_theme);
             this.Name = "InterfaceThemesProfesseur";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Themes - Teacher";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
