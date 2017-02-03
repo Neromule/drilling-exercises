@@ -5,3 +5,10 @@ C:\Users\Valentin\Desktop\DrillingExercise\Icons\obj\Debug\Icons.dll
 C:\Users\Valentin\Desktop\DrillingExercise\Icons\obj\Debug\Icons.pdb
 C:\Users\Valentin\Desktop\DrillingExercise\Icons\obj\Debug\Drilling.Properties.Resources.resources
 C:\Users\Valentin\Desktop\DrillingExercise\Icons\obj\Debug\Icons.csprojResolveAssemblyReference.cache
+C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Icons\bin\Debug\Icons.dll
+C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Icons\bin\Debug\Icons.pdb
+C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Icons\obj\Debug\Icons.csprojResolveAssemblyReference.cache
+C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Icons\obj\Debug\Drilling.Properties.Resources.resources
+C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Icons\obj\Debug\Icons.csproj.GenerateResource.Cache
+C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Icons\obj\Debug\Icons.dll
+C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Icons\obj\Debug\Icons.pdb

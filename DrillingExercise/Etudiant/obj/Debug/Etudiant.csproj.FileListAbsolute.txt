@@ -25,3 +25,17 @@ C:\Users\Valentin\Desktop\DrillingExercise\Etudiant\obj\Debug\Drilling.Interface
 C:\Users\Valentin\Desktop\DrillingExercise\Etudiant\bin\Debug\Etudiant.dll.config
 C:\Users\Valentin\Desktop\DrillingExercise\Etudiant\bin\Debug\Etudiant.dll
 C:\Users\Valentin\Desktop\DrillingExercise\Etudiant\obj\Debug\Etudiant.dll
+C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Etudiant\bin\Debug\Etudiant.dll.config
+C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Etudiant\bin\Debug\Etudiant.dll
+C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Etudiant\bin\Debug\Etudiant.pdb
+C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Etudiant.csprojResolveAssemblyReference.cache
+C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Drilling.InterfaceAffichageCorrection.resources
+C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Drilling.InterfaceAffichageQuestion.resources
+C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Drilling.InterfaceContactProfesseur.resources
+C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Drilling.InterfaceEtudiant.resources
+C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Drilling.InterfaceResultatsEtudiant.resources
+C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Drilling.InterfaceThemesEtudiant.resources
+C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Etudiant.Properties.Resources.resources
+C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Etudiant.csproj.GenerateResource.Cache
+C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Etudiant.dll
+C:\Users\Valentin\Documents\drilling-exercises\DrillingExercise\Etudiant\obj\Debug\Etudiant.pdb
