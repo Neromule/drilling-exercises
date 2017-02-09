@@ -22,7 +22,7 @@ namespace Drilling
         private void cmd_signin_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new InterfaceEtudiant().ShowDialog();   
+            new InterfaceProfesseur().ShowDialog();   
             this.Close();      
         }
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

@@ -12,9 +12,25 @@ namespace Drilling
 {
     public partial class InterfaceModifierTheme : Form
     {
-        public InterfaceModifierTheme()
+        Form m_parent;
+
+        public InterfaceModifierTheme(Form p)
         {
             InitializeComponent();
+            m_parent = p;
+        }
+
+        private void cmd_return_Click(object sender, EventArgs e)
+        {
+            Close();
+            m_parent.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Hide();
+            new InterfaceAjouterQuestion(this).ShowDialog();
+         
         }
     }
 }

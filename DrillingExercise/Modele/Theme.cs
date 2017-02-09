@@ -29,6 +29,11 @@ namespace Modele
             {
                 return title;
             }
+
+            set
+            {
+                this.title = Title;
+            }
         }
 
         public String Memo

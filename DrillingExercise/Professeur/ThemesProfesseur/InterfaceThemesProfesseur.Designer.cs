@@ -41,6 +41,7 @@
             this.cmd_delete_items = new System.Windows.Forms.Button();
             this.cmd_add_theme = new System.Windows.Forms.Button();
             this.cmd_return = new System.Windows.Forms.Button();
+            this.cmd_cancel_delete = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -77,6 +78,7 @@
             this.cmd_theme1.TabIndex = 0;
             this.cmd_theme1.Text = "Theme1";
             this.cmd_theme1.UseVisualStyleBackColor = true;
+            this.cmd_theme1.Click += new System.EventHandler(this.cmd_theme1_Click);
             // 
             // cmd_theme4
             // 
@@ -149,6 +151,7 @@
             this.cmd_delete_theme.TabIndex = 10;
             this.cmd_delete_theme.Text = "Delete a theme";
             this.cmd_delete_theme.UseVisualStyleBackColor = true;
+            this.cmd_delete_theme.Click += new System.EventHandler(this.cmd_delete_theme_Click);
             // 
             // cmd_delete_items
             // 
@@ -167,6 +170,7 @@
             this.cmd_add_theme.TabIndex = 12;
             this.cmd_add_theme.Text = "Add a theme";
             this.cmd_add_theme.UseVisualStyleBackColor = true;
+            this.cmd_add_theme.Click += new System.EventHandler(this.cmd_add_theme_Click);
             // 
             // cmd_return
             // 
@@ -178,11 +182,22 @@
             this.cmd_return.UseVisualStyleBackColor = true;
             this.cmd_return.Click += new System.EventHandler(this.cmd_return_Click);
             // 
+            // cmd_cancel_delete
+            // 
+            this.cmd_cancel_delete.Location = new System.Drawing.Point(187, 222);
+            this.cmd_cancel_delete.Name = "cmd_cancel_delete";
+            this.cmd_cancel_delete.Size = new System.Drawing.Size(75, 23);
+            this.cmd_cancel_delete.TabIndex = 14;
+            this.cmd_cancel_delete.Text = "Cancel";
+            this.cmd_cancel_delete.UseVisualStyleBackColor = true;
+            this.cmd_cancel_delete.Click += new System.EventHandler(this.cmd_cancel_delete_Click);
+            // 
             // InterfaceThemesProfesseur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 297);
+            this.Controls.Add(this.cmd_cancel_delete);
             this.Controls.Add(this.cmd_return);
             this.Controls.Add(this.cmd_add_theme);
             this.Controls.Add(this.cmd_delete_items);
@@ -191,6 +206,7 @@
             this.Name = "InterfaceThemesProfesseur";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Themes - Teacher";
+            this.Load += new System.EventHandler(this.InterfaceThemesProfesseur_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);
@@ -212,6 +228,7 @@
         private System.Windows.Forms.Button cmd_delete_items;
         private System.Windows.Forms.Button cmd_add_theme;
         private System.Windows.Forms.Button cmd_return;
+        private System.Windows.Forms.Button cmd_cancel_delete;
     }
 }
 

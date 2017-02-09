@@ -3,3 +3,8 @@ D:\Projet\drilling-exercises\DrillingExercise\Modele\bin\Debug\Modele.pdb
 D:\Projet\drilling-exercises\DrillingExercise\Modele\obj\Debug\Modele.csprojResolveAssemblyReference.cache
 D:\Projet\drilling-exercises\DrillingExercise\Modele\obj\Debug\Modele.dll
 D:\Projet\drilling-exercises\DrillingExercise\Modele\obj\Debug\Modele.pdb
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Modele\bin\Debug\Modele.dll
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Modele\bin\Debug\Modele.pdb
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Modele\obj\Debug\Modele.csprojResolveAssemblyReference.cache
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Modele\obj\Debug\Modele.dll
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Modele\obj\Debug\Modele.pdb

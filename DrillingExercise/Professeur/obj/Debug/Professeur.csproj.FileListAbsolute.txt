@@ -47,3 +47,8 @@ C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Professeur\obj\Debug\Pro
 C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Professeur\obj\Debug\Professeur.dll
 C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Professeur\obj\Debug\Professeur.pdb
 C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Professeur\obj\Debug\Drilling.InterfaceContactProfesseur.resources
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Professeur\bin\Debug\Components.dll
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Professeur\bin\Debug\Modele.dll
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Professeur\bin\Debug\MySql.Data.dll
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Professeur\bin\Debug\Components.pdb
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Professeur\bin\Debug\Modele.pdb

@@ -27,6 +27,10 @@ namespace Modele
             {
                 return texte;
             }
+            set
+            {
+                this.texte = Texte;
+            }
         }
 
         public String Memo

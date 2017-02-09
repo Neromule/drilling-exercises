@@ -153,6 +153,7 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "Add a question";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // cmd_return
             // 
@@ -162,6 +163,7 @@
             this.cmd_return.TabIndex = 4;
             this.cmd_return.Text = "←";
             this.cmd_return.UseVisualStyleBackColor = true;
+            this.cmd_return.Click += new System.EventHandler(this.cmd_return_Click);
             // 
             // InterfaceModifierTheme
             // 

@@ -58,6 +58,7 @@
             this.cmd_ok.TabIndex = 2;
             this.cmd_ok.Text = "OK";
             this.cmd_ok.UseVisualStyleBackColor = true;
+            this.cmd_ok.Click += new System.EventHandler(this.cmd_ok_Click);
             // 
             // cmd_return
             // 
@@ -67,6 +68,7 @@
             this.cmd_return.TabIndex = 4;
             this.cmd_return.Text = "←";
             this.cmd_return.UseVisualStyleBackColor = true;
+            this.cmd_return.Click += new System.EventHandler(this.cmd_return_Click);
             // 
             // InterfaceAjouterTheme
             // 

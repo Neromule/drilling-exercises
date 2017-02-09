@@ -33,22 +33,25 @@
             this.opt_2 = new System.Windows.Forms.RadioButton();
             this.opt_3 = new System.Windows.Forms.RadioButton();
             this.txt_question = new System.Windows.Forms.TextBox();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLP_QCM = new System.Windows.Forms.TableLayoutPanel();
             this.lbl_reponse_3 = new System.Windows.Forms.Label();
             this.lbl_reponse_2 = new System.Windows.Forms.Label();
             this.lbl_reponse_1 = new System.Windows.Forms.Label();
             this.cmd_add_question = new System.Windows.Forms.Button();
             this.lbl_answer = new System.Windows.Forms.Label();
             this.opt_qcm = new System.Windows.Forms.RadioButton();
-            this.opt_gapfield = new System.Windows.Forms.RadioButton();
-            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.opt_gapfill = new System.Windows.Forms.RadioButton();
+            this.tableLP_GapFill = new System.Windows.Forms.TableLayoutPanel();
             this.txt_poss_4 = new System.Windows.Forms.TextBox();
             this.txt_poss_3 = new System.Windows.Forms.TextBox();
             this.txt_poss_2 = new System.Windows.Forms.TextBox();
             this.txt_poss_1 = new System.Windows.Forms.TextBox();
             this.cmd_return = new System.Windows.Forms.Button();
-            this.tableLayoutPanel1.SuspendLayout();
-            this.tableLayoutPanel2.SuspendLayout();
+            this.txt_rep_1 = new System.Windows.Forms.TextBox();
+            this.txt_rep_2 = new System.Windows.Forms.TextBox();
+            this.txt_rep_3 = new System.Windows.Forms.TextBox();
+            this.tableLP_QCM.SuspendLayout();
+            this.tableLP_GapFill.SuspendLayout();
             this.SuspendLayout();
             // 
             // lbl_question
@@ -59,7 +62,6 @@
             this.lbl_question.Size = new System.Drawing.Size(55, 13);
             this.lbl_question.TabIndex = 0;
             this.lbl_question.Text = "Question :";
-            this.lbl_question.Click += new System.EventHandler(this.label1_Click);
             // 
             // opt_1
             // 
@@ -97,32 +99,36 @@
             this.txt_question.Name = "txt_question";
             this.txt_question.Size = new System.Drawing.Size(132, 20);
             this.txt_question.TabIndex = 4;
-            this.txt_question.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // tableLayoutPanel1
+            // tableLP_QCM
             // 
-            this.tableLayoutPanel1.ColumnCount = 2;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Controls.Add(this.lbl_reponse_3, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.lbl_reponse_2, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.opt_3, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.opt_2, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.opt_1, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.lbl_reponse_1, 1, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(30, 111);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 52.30769F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 47.69231F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 34F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(200, 100);
-            this.tableLayoutPanel1.TabIndex = 5;
+            this.tableLP_QCM.ColumnCount = 3;
+            this.tableLP_QCM.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLP_QCM.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLP_QCM.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 134F));
+            this.tableLP_QCM.Controls.Add(this.lbl_reponse_3, 1, 2);
+            this.tableLP_QCM.Controls.Add(this.lbl_reponse_2, 1, 1);
+            this.tableLP_QCM.Controls.Add(this.opt_3, 0, 2);
+            this.tableLP_QCM.Controls.Add(this.opt_2, 0, 1);
+            this.tableLP_QCM.Controls.Add(this.opt_1, 0, 0);
+            this.tableLP_QCM.Controls.Add(this.txt_rep_1, 2, 0);
+            this.tableLP_QCM.Controls.Add(this.lbl_reponse_1, 1, 0);
+            this.tableLP_QCM.Controls.Add(this.txt_rep_2, 2, 1);
+            this.tableLP_QCM.Controls.Add(this.txt_rep_3, 2, 2);
+            this.tableLP_QCM.Location = new System.Drawing.Point(30, 111);
+            this.tableLP_QCM.Name = "tableLP_QCM";
+            this.tableLP_QCM.RowCount = 3;
+            this.tableLP_QCM.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 52.30769F));
+            this.tableLP_QCM.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 47.69231F));
+            this.tableLP_QCM.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 34F));
+            this.tableLP_QCM.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLP_QCM.Size = new System.Drawing.Size(230, 100);
+            this.tableLP_QCM.TabIndex = 5;
             // 
             // lbl_reponse_3
             // 
             this.lbl_reponse_3.AutoSize = true;
-            this.lbl_reponse_3.Location = new System.Drawing.Point(103, 65);
+            this.lbl_reponse_3.Location = new System.Drawing.Point(51, 65);
             this.lbl_reponse_3.Name = "lbl_reponse_3";
             this.lbl_reponse_3.Size = new System.Drawing.Size(36, 13);
             this.lbl_reponse_3.TabIndex = 6;
@@ -131,7 +137,7 @@
             // lbl_reponse_2
             // 
             this.lbl_reponse_2.AutoSize = true;
-            this.lbl_reponse_2.Location = new System.Drawing.Point(103, 34);
+            this.lbl_reponse_2.Location = new System.Drawing.Point(51, 34);
             this.lbl_reponse_2.Name = "lbl_reponse_2";
             this.lbl_reponse_2.Size = new System.Drawing.Size(36, 13);
             this.lbl_reponse_2.TabIndex = 5;
@@ -140,7 +146,7 @@
             // lbl_reponse_1
             // 
             this.lbl_reponse_1.AutoSize = true;
-            this.lbl_reponse_1.Location = new System.Drawing.Point(103, 0);
+            this.lbl_reponse_1.Location = new System.Drawing.Point(51, 0);
             this.lbl_reponse_1.Name = "lbl_reponse_1";
             this.lbl_reponse_1.Size = new System.Drawing.Size(39, 13);
             this.lbl_reponse_1.TabIndex = 4;
@@ -163,11 +169,11 @@
             this.lbl_answer.Size = new System.Drawing.Size(53, 13);
             this.lbl_answer.TabIndex = 4;
             this.lbl_answer.Text = "Answer(s)";
-            this.lbl_answer.Click += new System.EventHandler(this.label2_Click);
             // 
             // opt_qcm
             // 
             this.opt_qcm.AutoSize = true;
+            this.opt_qcm.Checked = true;
             this.opt_qcm.Location = new System.Drawing.Point(107, 79);
             this.opt_qcm.Name = "opt_qcm";
             this.opt_qcm.Size = new System.Drawing.Size(49, 17);
@@ -175,34 +181,35 @@
             this.opt_qcm.TabStop = true;
             this.opt_qcm.Text = "QCM";
             this.opt_qcm.UseVisualStyleBackColor = true;
+            this.opt_qcm.CheckedChanged += new System.EventHandler(this.opt_qcm_CheckedChanged);
             // 
-            // opt_gapfield
+            // opt_gapfill
             // 
-            this.opt_gapfield.AutoSize = true;
-            this.opt_gapfield.Location = new System.Drawing.Point(285, 81);
-            this.opt_gapfield.Name = "opt_gapfield";
-            this.opt_gapfield.Size = new System.Drawing.Size(67, 17);
-            this.opt_gapfield.TabIndex = 8;
-            this.opt_gapfield.TabStop = true;
-            this.opt_gapfield.Text = "GapField";
-            this.opt_gapfield.UseVisualStyleBackColor = true;
+            this.opt_gapfill.AutoSize = true;
+            this.opt_gapfill.Location = new System.Drawing.Point(285, 81);
+            this.opt_gapfill.Name = "opt_gapfill";
+            this.opt_gapfill.Size = new System.Drawing.Size(57, 17);
+            this.opt_gapfill.TabIndex = 8;
+            this.opt_gapfill.Text = "GapFill";
+            this.opt_gapfill.UseVisualStyleBackColor = true;
+            this.opt_gapfill.CheckedChanged += new System.EventHandler(this.opt_gapfield_CheckedChanged);
             // 
-            // tableLayoutPanel2
+            // tableLP_GapFill
             // 
-            this.tableLayoutPanel2.ColumnCount = 2;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Controls.Add(this.txt_poss_4, 1, 1);
-            this.tableLayoutPanel2.Controls.Add(this.txt_poss_3, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.txt_poss_2, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.txt_poss_1, 0, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(285, 114);
-            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 2;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(200, 100);
-            this.tableLayoutPanel2.TabIndex = 9;
+            this.tableLP_GapFill.ColumnCount = 2;
+            this.tableLP_GapFill.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLP_GapFill.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLP_GapFill.Controls.Add(this.txt_poss_4, 1, 1);
+            this.tableLP_GapFill.Controls.Add(this.txt_poss_3, 0, 1);
+            this.tableLP_GapFill.Controls.Add(this.txt_poss_2, 1, 0);
+            this.tableLP_GapFill.Controls.Add(this.txt_poss_1, 0, 0);
+            this.tableLP_GapFill.Location = new System.Drawing.Point(285, 114);
+            this.tableLP_GapFill.Name = "tableLP_GapFill";
+            this.tableLP_GapFill.RowCount = 2;
+            this.tableLP_GapFill.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLP_GapFill.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLP_GapFill.Size = new System.Drawing.Size(200, 100);
+            this.tableLP_GapFill.TabIndex = 9;
             // 
             // txt_poss_4
             // 
@@ -240,6 +247,28 @@
             this.cmd_return.TabIndex = 10;
             this.cmd_return.Text = "←";
             this.cmd_return.UseVisualStyleBackColor = true;
+            this.cmd_return.Click += new System.EventHandler(this.cmd_return_Click);
+            // 
+            // txt_rep_1
+            // 
+            this.txt_rep_1.Location = new System.Drawing.Point(99, 3);
+            this.txt_rep_1.Name = "txt_rep_1";
+            this.txt_rep_1.Size = new System.Drawing.Size(128, 20);
+            this.txt_rep_1.TabIndex = 11;
+            // 
+            // txt_rep_2
+            // 
+            this.txt_rep_2.Location = new System.Drawing.Point(99, 37);
+            this.txt_rep_2.Name = "txt_rep_2";
+            this.txt_rep_2.Size = new System.Drawing.Size(128, 20);
+            this.txt_rep_2.TabIndex = 12;
+            // 
+            // txt_rep_3
+            // 
+            this.txt_rep_3.Location = new System.Drawing.Point(99, 68);
+            this.txt_rep_3.Name = "txt_rep_3";
+            this.txt_rep_3.Size = new System.Drawing.Size(128, 20);
+            this.txt_rep_3.TabIndex = 13;
             // 
             // InterfaceAjouterQuestion
             // 
@@ -247,21 +276,22 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(497, 262);
             this.Controls.Add(this.cmd_return);
-            this.Controls.Add(this.tableLayoutPanel2);
-            this.Controls.Add(this.opt_gapfield);
+            this.Controls.Add(this.tableLP_GapFill);
+            this.Controls.Add(this.opt_gapfill);
             this.Controls.Add(this.opt_qcm);
             this.Controls.Add(this.cmd_add_question);
-            this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.tableLP_QCM);
             this.Controls.Add(this.txt_question);
             this.Controls.Add(this.lbl_answer);
             this.Controls.Add(this.lbl_question);
             this.Name = "InterfaceAjouterQuestion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Add a question -Teacher";
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
-            this.tableLayoutPanel2.ResumeLayout(false);
-            this.tableLayoutPanel2.PerformLayout();
+            this.Load += new System.EventHandler(this.InterfaceAjouterQuestion_Load);
+            this.tableLP_QCM.ResumeLayout(false);
+            this.tableLP_QCM.PerformLayout();
+            this.tableLP_GapFill.ResumeLayout(false);
+            this.tableLP_GapFill.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -274,12 +304,12 @@
         private System.Windows.Forms.RadioButton opt_2;
         private System.Windows.Forms.RadioButton opt_3;
         private System.Windows.Forms.TextBox txt_question;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TableLayoutPanel tableLP_QCM;
         private System.Windows.Forms.Button cmd_add_question;
         private System.Windows.Forms.Label lbl_answer;
         private System.Windows.Forms.RadioButton opt_qcm;
-        private System.Windows.Forms.RadioButton opt_gapfield;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.RadioButton opt_gapfill;
+        private System.Windows.Forms.TableLayoutPanel tableLP_GapFill;
         private System.Windows.Forms.TextBox txt_poss_4;
         private System.Windows.Forms.TextBox txt_poss_3;
         private System.Windows.Forms.TextBox txt_poss_2;
@@ -288,5 +318,8 @@
         private System.Windows.Forms.Label lbl_reponse_2;
         private System.Windows.Forms.Label lbl_reponse_1;
         private System.Windows.Forms.Button cmd_return;
+        private System.Windows.Forms.TextBox txt_rep_1;
+        private System.Windows.Forms.TextBox txt_rep_2;
+        private System.Windows.Forms.TextBox txt_rep_3;
     }
 }
