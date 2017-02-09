@@ -98,3 +98,5 @@ D:\Projet\drilling-exercises\DrillingExercise\Connexion\bin\Debug\Components.pdb
 D:\Projet\drilling-exercises\DrillingExercise\Connexion\bin\Debug\Etudiant.pdb
 D:\Projet\drilling-exercises\DrillingExercise\Connexion\bin\Debug\Icons.pdb
 D:\Projet\drilling-exercises\DrillingExercise\Connexion\bin\Debug\Professeur.pdb
+D:\Projet\drilling-exercises\DrillingExercise\Connexion\bin\Debug\Modele.dll
+D:\Projet\drilling-exercises\DrillingExercise\Connexion\bin\Debug\Modele.pdb

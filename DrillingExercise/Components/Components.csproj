@@ -46,9 +46,14 @@
   <ItemGroup>
     <Compile Include="BDD.cs" />
     <Compile Include="Mail.cs" />
-    <Compile Include="User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Win.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Modele\Modele.csproj">
+      <Project>{ff81b044-680d-4599-bd76-a0cc91046039}</Project>
+      <Name>Modele</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

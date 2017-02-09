@@ -79,7 +79,7 @@ namespace Drilling
                     cmd.CommandText = "INSERT INTO users (name, firstName, mail, password) VALUES (@name, @firstName, @mail, @password)";
 
                     // utilisation de l'objet contact passé en paramètre
-                    cmd.Parameters.AddWithValue("@name", u.Name);
+                    cmd.Parameters.AddWithValue("@name", u.LastName);
                     cmd.Parameters.AddWithValue("@firstName", u.FirstName);
                     cmd.Parameters.AddWithValue("@mail", u.Mail);
                     cmd.Parameters.AddWithValue("@password", u.Password);

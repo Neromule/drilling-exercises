@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modele
+namespace Drilling
 {
     abstract public class User
     {
@@ -35,6 +35,22 @@ namespace Modele
             get
             {
                 return lastName;
+            }
+        }
+
+        public String Mail
+        {
+            get
+            {
+                return mail;
+            }
+        }
+
+        public String Password
+        {
+            get
+            {
+                return password;
             }
         }
 

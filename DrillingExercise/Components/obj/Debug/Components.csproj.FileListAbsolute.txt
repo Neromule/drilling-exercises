@@ -22,3 +22,5 @@ D:\Projet\drilling-exercises\DrillingExercise\Components\bin\Debug\MySql.Data.dl
 D:\Projet\drilling-exercises\DrillingExercise\Components\obj\Debug\Components.csprojResolveAssemblyReference.cache
 D:\Projet\drilling-exercises\DrillingExercise\Components\obj\Debug\Components.dll
 D:\Projet\drilling-exercises\DrillingExercise\Components\obj\Debug\Components.pdb
+D:\Projet\drilling-exercises\DrillingExercise\Components\bin\Debug\Modele.dll
+D:\Projet\drilling-exercises\DrillingExercise\Components\bin\Debug\Modele.pdb
