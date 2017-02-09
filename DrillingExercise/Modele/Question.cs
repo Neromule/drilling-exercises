@@ -29,7 +29,7 @@ namespace Drilling
             }
             set
             {
-                this.texte = Texte;
+                this.text = Text;
             }
         }
 

@@ -26,5 +26,10 @@ namespace Drilling
             Close();
             m_parent.Show();
         }
+
+        private void dgd_results_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

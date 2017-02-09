@@ -24,3 +24,5 @@ D:\Projet\drilling-exercises\DrillingExercise\Components\obj\Debug\Components.dl
 D:\Projet\drilling-exercises\DrillingExercise\Components\obj\Debug\Components.pdb
 D:\Projet\drilling-exercises\DrillingExercise\Components\bin\Debug\Modele.dll
 D:\Projet\drilling-exercises\DrillingExercise\Components\bin\Debug\Modele.pdb
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Components\bin\Debug\Modele.dll
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Components\bin\Debug\Modele.pdb

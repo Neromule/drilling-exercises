@@ -100,3 +100,5 @@ D:\Projet\drilling-exercises\DrillingExercise\Connexion\bin\Debug\Icons.pdb
 D:\Projet\drilling-exercises\DrillingExercise\Connexion\bin\Debug\Professeur.pdb
 D:\Projet\drilling-exercises\DrillingExercise\Connexion\bin\Debug\Modele.dll
 D:\Projet\drilling-exercises\DrillingExercise\Connexion\bin\Debug\Modele.pdb
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Connexion\bin\Debug\Modele.dll
+C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Connexion\bin\Debug\Modele.pdb

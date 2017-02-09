@@ -100,6 +100,7 @@
             this.dgd_results.Name = "dgd_results";
             this.dgd_results.Size = new System.Drawing.Size(688, 203);
             this.dgd_results.TabIndex = 5;
+            this.dgd_results.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgd_results_CellContentClick);
             // 
             // Column1
             // 
