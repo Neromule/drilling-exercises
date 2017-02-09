@@ -4,7 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+<<<<<<< HEAD
 namespace Modele
+=======
+namespace Drilling
+>>>>>>> 22e0e364a9504b8c975eff4bbe3c569647f821eb
 {
     public class Theme
     {
@@ -29,11 +33,14 @@ namespace Modele
             {
                 return title;
             }
+<<<<<<< HEAD
 
             set
             {
                 this.title = Title;
             }
+=======
+>>>>>>> 22e0e364a9504b8c975eff4bbe3c569647f821eb
         }
 
         public String Memo
@@ -76,6 +83,7 @@ namespace Modele
             this.partLength = partLength;
             this.duration = duration;
         }
+<<<<<<< HEAD
 
         public static Theme fetchById(int id)
         {
@@ -91,5 +99,7 @@ namespace Modele
         {
             throw new Exception("Code à compléter");
         }
+=======
+>>>>>>> 22e0e364a9504b8c975eff4bbe3c569647f821eb
     }
 }

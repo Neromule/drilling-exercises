@@ -49,8 +49,7 @@ namespace Drilling
         {
             if(txt_validation.Text == validationCode)
             {
-                BDD bdd = new BDD();
-                userCreateStatus = bdd.AddUser(user);
+                userCreateStatus = BDD.AddUser(user);
 
                 if(userCreateStatus == 0)
                 {

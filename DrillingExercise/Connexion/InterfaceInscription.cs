@@ -44,12 +44,11 @@ namespace Drilling
             using (MD5 md5Hash = MD5.Create())
                 password = GetMd5Hash(md5Hash, txt_password.Text);
 
-            User u = new User(txt_firstName.Text, txt_lastName.Text, txt_mail.Text, password);
+            User u = new Student(txt_firstName.Text, txt_lastName.Text, txt_mail.Text, password);
 
             //Check si l'utilisateur n'existe pas déjà
-            BDD bdd = new BDD();
             Cursor.Current = Cursors.WaitCursor;
-            int existingUserResult = bdd.ExistingUser(u.Mail);
+            int existingUserResult = BDD.ExistingUser(u.Mail);
 
             if(existingUserResult == 0)
             {

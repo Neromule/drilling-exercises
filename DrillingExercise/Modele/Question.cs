@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modele
+namespace Drilling
 {
     public class Question
     {
         private int id;
         private Theme belongsTo;
-        private String texte;
+        private String text;
         private String memo;
 
         public Theme BelongsTo
@@ -21,11 +21,11 @@ namespace Modele
             }
         }
 
-        public String Texte
+        public String Text
         {
             get
             {
-                return texte;
+                return text;
             }
             set
             {
@@ -41,10 +41,10 @@ namespace Modele
             }
         }
 
-        public Question(Theme belongsTo, String texte, String memo)
+        public Question(Theme belongsTo, String text, String memo)
         {
             this.belongsTo = belongsTo;
-            this.texte = texte;
+            this.text = text;
             this.memo = memo;
         }
     }

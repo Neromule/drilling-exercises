@@ -10,16 +10,16 @@ namespace Drilling
 {
     public class BDD
     {
-        private MySqlConnection connection;
+        private static MySqlConnection connection = new MySqlConnection("SERVER=localhost; DATABASE=drilling; UID=root; PASSWORD=");
 
         // Constructeur
         public BDD()
         {
-            connection = new MySqlConnection("SERVER=localhost; DATABASE=drilling; UID=root; PASSWORD=");
+
         }
 
 
-        public int ExistingUser(string mail)
+        public static int ExistingUser(string mail)
         {
             try
             {
@@ -56,12 +56,12 @@ namespace Drilling
 
 
         // Méthode pour ajouter un contact
-        public int AddUser(User u)
+        public static int AddUser(User u)
         {
             try
             {
                 // Ouverture de la connexion SQL
-                this.connection.Open();
+                BDD.connection.Open();
 
                 //On regarde si il n'y pas déjà un utilisateur avec cet e-mail
                 string stm = "SELECT COUNT(*) FROM users WHERE mail='" + u.Mail + "'";
@@ -73,13 +73,13 @@ namespace Drilling
                 {
                     rdr.Close();
                     // Création d'une commande SQL en fonction de l'objet connection
-                    MySqlCommand cmd = this.connection.CreateCommand();
+                    MySqlCommand cmd = BDD.connection.CreateCommand();
 
                     // Requête SQL
                     cmd.CommandText = "INSERT INTO users (name, firstName, mail, password) VALUES (@name, @firstName, @mail, @password)";
 
                     // utilisation de l'objet contact passé en paramètre
-                    cmd.Parameters.AddWithValue("@name", u.Name);
+                    cmd.Parameters.AddWithValue("@name", u.LastName);
                     cmd.Parameters.AddWithValue("@firstName", u.FirstName);
                     cmd.Parameters.AddWithValue("@mail", u.Mail);
                     cmd.Parameters.AddWithValue("@password", u.Password);
@@ -106,7 +106,61 @@ namespace Drilling
             finally
             {
                 // Fermeture de la connexion
-                this.connection.Close();
+                BDD.connection.Close();
+            }
+        }
+
+        public static int AddTheme(Theme t)
+        {
+            try
+            {
+                BDD.connection.Open();
+
+                MySqlCommand command = BDD.connection.CreateCommand();
+                command.CommandText = "INSERT INTO themes (title, minRate, questionsPerPortion, time, memo) VALUES (@title, @minRate, @questionsPerPortion, @time, @memo)";
+                command.Parameters.AddWithValue("@title", t.Title);
+                command.Parameters.AddWithValue("@minRate", t.MinimumMark);
+                command.Parameters.AddWithValue("@questionsPerPortion", t.PartLength);
+                command.Parameters.AddWithValue("@time", t.Duration);
+                command.Parameters.AddWithValue("@memo", t.Memo);
+
+                command.ExecuteNonQuery();
+
+                return 0;
+            }
+            catch
+            {
+                return 1;
+            }
+            finally
+            {
+                BDD.connection.Close();
+            }
+        }
+
+        public static int AddQuestion(Question q)
+        {
+            try
+            {
+                BDD.connection.Open();
+
+                MySqlCommand command = BDD.connection.CreateCommand();
+                command.CommandText = "INSERT INTO questions (id_theme, question, memo) VALUES (@id_theme, @question, @memo)";
+                command.Parameters.AddWithValue("@id_theme", q.BelongsTo.Id);
+                command.Parameters.AddWithValue("@title", q.Text);
+                command.Parameters.AddWithValue("@memo", q.Memo);
+
+                command.ExecuteNonQuery();
+
+                return 0;
+            }
+            catch
+            {
+                return 1;
+            }
+            finally
+            {
+                BDD.connection.Close();
             }
         }
     }

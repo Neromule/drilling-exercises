@@ -117,6 +117,10 @@
       <Project>{d59eeb53-3ffd-4189-8608-27fbb59d5923}</Project>
       <Name>Icons</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Modele\Modele.csproj">
+      <Project>{ff81b044-680d-4599-bd76-a0cc91046039}</Project>
+      <Name>Modele</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Professeur\Professeur.csproj">
       <Project>{84d8699e-b70b-4b01-be93-8373bc81a319}</Project>
       <Name>Professeur</Name>

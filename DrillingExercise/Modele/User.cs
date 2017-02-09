@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modele
+namespace Drilling
 {
     abstract public class User
     {
@@ -38,32 +38,28 @@ namespace Modele
             }
         }
 
+        public String Mail
+        {
+            get
+            {
+                return mail;
+            }
+        }
+
+        public String Password
+        {
+            get
+            {
+                return password;
+            }
+        }
+
         public User(String firstName, String lastName, String mail, String password)
         {
             this.firstName = firstName;
             this.lastName = lastName;
             this.mail = mail;
             this.password = password;
-        }
-
-        public static User fetchById(int id)
-        {
-            throw new Exception("Code à compléter");
-        }
-
-        public static User fetchByMail(String mail)
-        {
-            throw new Exception("Code à compléter");
-        }
-
-        public void push(String code)
-        {
-            throw new Exception("Code à compléter");
-        }
-
-        public void update()
-        {
-            throw new Exception("Code à compléter");
         }
     }
 }

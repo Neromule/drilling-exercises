@@ -19,3 +19,10 @@ C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Icons\obj\Debug\Drilling
 C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Icons\obj\Debug\Icons.csproj.GenerateResource.Cache
 C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Icons\obj\Debug\Icons.dll
 C:\ProjetTutore_Git\drilling-exercises\DrillingExercise\Icons\obj\Debug\Icons.pdb
+D:\Projet\drilling-exercises\DrillingExercise\Icons\bin\Debug\Icons.dll
+D:\Projet\drilling-exercises\DrillingExercise\Icons\bin\Debug\Icons.pdb
+D:\Projet\drilling-exercises\DrillingExercise\Icons\obj\Debug\Icons.csprojResolveAssemblyReference.cache
+D:\Projet\drilling-exercises\DrillingExercise\Icons\obj\Debug\Drilling.Properties.Resources.resources
+D:\Projet\drilling-exercises\DrillingExercise\Icons\obj\Debug\Icons.csproj.GenerateResource.Cache
+D:\Projet\drilling-exercises\DrillingExercise\Icons\obj\Debug\Icons.dll
+D:\Projet\drilling-exercises\DrillingExercise\Icons\obj\Debug\Icons.pdb
