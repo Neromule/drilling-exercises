@@ -10,7 +10,7 @@ namespace Drilling
     {
         private int id;
         private Theme belongsTo;
-        private String texte;
+        private String text;
         private String memo;
 
         public Theme BelongsTo
@@ -21,11 +21,11 @@ namespace Drilling
             }
         }
 
-        public String Texte
+        public String Text
         {
             get
             {
-                return texte;
+                return text;
             }
         }
 
@@ -37,10 +37,10 @@ namespace Drilling
             }
         }
 
-        public Question(Theme belongsTo, String texte, String memo)
+        public Question(Theme belongsTo, String text, String memo)
         {
             this.belongsTo = belongsTo;
-            this.texte = texte;
+            this.text = text;
             this.memo = memo;
         }
     }

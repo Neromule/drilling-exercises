@@ -61,25 +61,5 @@ namespace Drilling
             this.mail = mail;
             this.password = password;
         }
-
-        public static User fetchById(int id)
-        {
-            throw new Exception("Code à compléter");
-        }
-
-        public static User fetchByMail(String mail)
-        {
-            throw new Exception("Code à compléter");
-        }
-
-        public void push(String code)
-        {
-            throw new Exception("Code à compléter");
-        }
-
-        public void update()
-        {
-            throw new Exception("Code à compléter");
-        }
     }
 }

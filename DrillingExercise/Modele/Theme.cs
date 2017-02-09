@@ -71,20 +71,5 @@ namespace Drilling
             this.partLength = partLength;
             this.duration = duration;
         }
-
-        public static Theme fetchById(int id)
-        {
-            throw new Exception("Code à compléter");
-        }
-
-        public void push()
-        {
-            throw new Exception("Code à compléter");
-        }
-
-        public void update()
-        {
-            throw new Exception("Code à compléter");
-        }
     }
 }

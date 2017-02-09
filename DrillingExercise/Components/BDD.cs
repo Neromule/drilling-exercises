@@ -109,5 +109,59 @@ namespace Drilling
                 BDD.connection.Close();
             }
         }
+
+        public static int AddTheme(Theme t)
+        {
+            try
+            {
+                BDD.connection.Open();
+
+                MySqlCommand command = BDD.connection.CreateCommand();
+                command.CommandText = "INSERT INTO themes (title, minRate, questionsPerPortion, time, memo) VALUES (@title, @minRate, @questionsPerPortion, @time, @memo)";
+                command.Parameters.AddWithValue("@title", t.Title);
+                command.Parameters.AddWithValue("@minRate", t.MinimumMark);
+                command.Parameters.AddWithValue("@questionsPerPortion", t.PartLength);
+                command.Parameters.AddWithValue("@time", t.Duration);
+                command.Parameters.AddWithValue("@memo", t.Memo);
+
+                command.ExecuteNonQuery();
+
+                return 0;
+            }
+            catch
+            {
+                return 1;
+            }
+            finally
+            {
+                BDD.connection.Close();
+            }
+        }
+
+        public static int AddQuestion(Question q)
+        {
+            try
+            {
+                BDD.connection.Open();
+
+                MySqlCommand command = BDD.connection.CreateCommand();
+                command.CommandText = "INSERT INTO questions (id_theme, question, memo) VALUES (@id_theme, @question, @memo)";
+                command.Parameters.AddWithValue("@id_theme", q.BelongsTo.Id);
+                command.Parameters.AddWithValue("@title", q.Text);
+                command.Parameters.AddWithValue("@memo", q.Memo);
+
+                command.ExecuteNonQuery();
+
+                return 0;
+            }
+            catch
+            {
+                return 1;
+            }
+            finally
+            {
+                BDD.connection.Close();
+            }
+        }
     }
 }
