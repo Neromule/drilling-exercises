@@ -10,16 +10,16 @@ namespace Drilling
 {
     public class BDD
     {
-        private MySqlConnection connection;
+        private static MySqlConnection connection = new MySqlConnection("SERVER=localhost; DATABASE=drilling; UID=root; PASSWORD=");
 
         // Constructeur
         public BDD()
         {
-            connection = new MySqlConnection("SERVER=localhost; DATABASE=drilling; UID=root; PASSWORD=");
+
         }
 
 
-        public int ExistingUser(string mail)
+        public static int ExistingUser(string mail)
         {
             try
             {
@@ -56,12 +56,12 @@ namespace Drilling
 
 
         // Méthode pour ajouter un contact
-        public int AddUser(User u)
+        public static int AddUser(User u)
         {
             try
             {
                 // Ouverture de la connexion SQL
-                this.connection.Open();
+                BDD.connection.Open();
 
                 //On regarde si il n'y pas déjà un utilisateur avec cet e-mail
                 string stm = "SELECT COUNT(*) FROM users WHERE mail='" + u.Mail + "'";
@@ -73,7 +73,7 @@ namespace Drilling
                 {
                     rdr.Close();
                     // Création d'une commande SQL en fonction de l'objet connection
-                    MySqlCommand cmd = this.connection.CreateCommand();
+                    MySqlCommand cmd = BDD.connection.CreateCommand();
 
                     // Requête SQL
                     cmd.CommandText = "INSERT INTO users (name, firstName, mail, password) VALUES (@name, @firstName, @mail, @password)";
@@ -106,7 +106,7 @@ namespace Drilling
             finally
             {
                 // Fermeture de la connexion
-                this.connection.Close();
+                BDD.connection.Close();
             }
         }
     }
