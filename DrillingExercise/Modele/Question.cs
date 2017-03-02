@@ -13,6 +13,14 @@ namespace Drilling
         private String text;
         private String memo;
 
+        public int Id
+        {
+            get
+            {
+                return id;
+            }
+        }
+
         public Theme BelongsTo
         {
             get

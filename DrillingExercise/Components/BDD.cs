@@ -163,5 +163,31 @@ namespace Drilling
                 BDD.connection.Close();
             }
         }
+
+        public static int AddAnswer(Answer a)
+        {
+            try
+            {
+                BDD.connection.Open();
+
+                MySqlCommand command = BDD.connection.CreateCommand();
+                command.CommandText = "INSERT INTO answers (id_question, answer, correct) VALUES (@id_question, @answer, @correct)";
+                command.Parameters.AddWithValue("@id_question", a.BelongsTo.Id);
+                command.Parameters.AddWithValue("@answer", a.Text);
+                command.Parameters.AddWithValue("@correct", a.Correct);
+
+                command.ExecuteNonQuery();
+
+                return 0;
+            }
+            catch
+            {
+                return 1;
+            }
+            finally
+            {
+                BDD.connection.Close();
+            }
+        }
     }
 }
