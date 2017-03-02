@@ -189,5 +189,28 @@ namespace Drilling
                 BDD.connection.Close();
             }
         }
+
+        public static int DeleteAnswer(int id)
+        {
+            try
+            {
+                BDD.connection.Open();
+
+                MySqlCommand command = BDD.connection.CreateCommand();
+                command.CommandText = "DELETE FROM answers WHERE id = " + id;
+
+                command.ExecuteNonQuery();
+
+                return 0;
+            }
+            catch
+            {
+                return 1;
+            }
+            finally
+            {
+                BDD.connection.Close();
+            }
+        }
     }
 }
